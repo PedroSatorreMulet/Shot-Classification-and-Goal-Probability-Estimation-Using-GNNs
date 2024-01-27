@@ -1,0 +1,759 @@
+2024-01-18 14:03:21,580 - INFO - Model Selection Is Over !
+2024-01-18 14:03:21,580 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 14:03:21,580 - INFO - Final (Re-)Training On the Entire Training Dataset, Using the Best HPs: ['Positive_Class_Weight': tensor(4.3163), 'Batch_Size': 512, 'Num_HGTConv_Layers': 2, 'Hidden_NN_Node_Units': 128, 'Num_Attention_Heads': 4, 'Message_Aggregation_Strategy': 'mean', 'Dropout_Rate': 0.25, 'Global_Graph_Pooling_Strategy': 'sum', 'Learning_Rate': 0.0001, 'Weight_Decay': 0.0001] !  \u2193
+2024-01-18 14:03:21,580 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 14:03:21,585 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 14:03:21,585 - INFO - TRAIN-TEST ITERATION #1
+2024-01-18 14:07:08,843 - INFO - EPOCH #1 | Full Training Loss = 0.9060257326583473 | Full Training ROC AUC-Score = 0.5085114240646362
+2024-01-18 14:07:08,843 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #1 --> Updating Best Model Weights
+2024-01-18 14:07:08,843 - INFO - EPOCH #1 | Full Training Loss = 0.9060257326583473 | *** Full Training ROC AUC-Score = 0.5085114240646362 ***
+2024-01-18 14:10:58,842 - INFO - EPOCH #2 | Full Training Loss = 0.9055178299242136 | Full Training ROC AUC-Score = 0.510772168636322
+2024-01-18 14:10:58,842 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #2 --> Updating Best Model Weights
+2024-01-18 14:10:58,842 - INFO - EPOCH #2 | Full Training Loss = 0.9055178299242136 | *** Full Training ROC AUC-Score = 0.510772168636322 ***
+2024-01-18 14:14:10,024 - INFO - EPOCH #3 | Full Training Loss = 0.9042793214321136 | Full Training ROC AUC-Score = 0.5192025303840637
+2024-01-18 14:14:10,024 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #3 --> Updating Best Model Weights
+2024-01-18 14:14:10,024 - INFO - EPOCH #3 | Full Training Loss = 0.9042793214321136 | *** Full Training ROC AUC-Score = 0.5192025303840637 ***
+2024-01-18 14:17:20,873 - INFO - EPOCH #4 | Full Training Loss = 0.9044853108269828 | Full Training ROC AUC-Score = 0.5202693939208984
+2024-01-18 14:17:20,873 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #4 --> Updating Best Model Weights
+2024-01-18 14:17:20,873 - INFO - EPOCH #4 | Full Training Loss = 0.9044853108269828 | *** Full Training ROC AUC-Score = 0.5202693939208984 ***
+2024-01-18 14:20:31,780 - INFO - EPOCH #5 | Full Training Loss = 0.9040697654899286 | Full Training ROC AUC-Score = 0.524349570274353
+2024-01-18 14:20:31,780 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #5 --> Updating Best Model Weights
+2024-01-18 14:20:31,780 - INFO - EPOCH #5 | Full Training Loss = 0.9040697654899286 | *** Full Training ROC AUC-Score = 0.524349570274353 ***
+2024-01-18 14:23:42,369 - INFO - EPOCH #6 | Full Training Loss = 0.9037973205653989 | Full Training ROC AUC-Score = 0.5282180309295654
+2024-01-18 14:23:42,369 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #6 --> Updating Best Model Weights
+2024-01-18 14:23:42,369 - INFO - EPOCH #6 | Full Training Loss = 0.9037973205653989 | *** Full Training ROC AUC-Score = 0.5282180309295654 ***
+2024-01-18 14:26:53,913 - INFO - EPOCH #7 | Full Training Loss = 0.9025716434936134 | Full Training ROC AUC-Score = 0.5399947762489319
+2024-01-18 14:26:53,913 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #7 --> Updating Best Model Weights
+2024-01-18 14:26:53,913 - INFO - EPOCH #7 | Full Training Loss = 0.9025716434936134 | *** Full Training ROC AUC-Score = 0.5399947762489319 ***
+2024-01-18 14:30:04,716 - INFO - EPOCH #8 | Full Training Loss = 0.9011251968996865 | Full Training ROC AUC-Score = 0.5477217435836792
+2024-01-18 14:30:04,716 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #8 --> Updating Best Model Weights
+2024-01-18 14:30:04,716 - INFO - EPOCH #8 | Full Training Loss = 0.9011251968996865 | *** Full Training ROC AUC-Score = 0.5477217435836792 ***
+2024-01-18 14:33:03,266 - INFO - EPOCH #9 | Full Training Loss = 0.8948672054981699 | Full Training ROC AUC-Score = 0.585899293422699
+2024-01-18 14:33:03,266 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #9 --> Updating Best Model Weights
+2024-01-18 14:33:03,266 - INFO - EPOCH #9 | Full Training Loss = 0.8948672054981699 | *** Full Training ROC AUC-Score = 0.585899293422699 ***
+2024-01-18 14:36:01,138 - INFO - EPOCH #10 | Full Training Loss = 0.8811727737893864 | Full Training ROC AUC-Score = 0.613227128982544
+2024-01-18 14:36:01,138 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #10 --> Updating Best Model Weights
+2024-01-18 14:36:01,138 - INFO - EPOCH #10 | Full Training Loss = 0.8811727737893864 | *** Full Training ROC AUC-Score = 0.613227128982544 ***
+2024-01-18 14:39:13,044 - INFO - EPOCH #11 | Full Training Loss = 0.8704651989498917 | Full Training ROC AUC-Score = 0.6213213205337524
+2024-01-18 14:39:13,044 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #11 --> Updating Best Model Weights
+2024-01-18 14:39:13,044 - INFO - EPOCH #11 | Full Training Loss = 0.8704651989498917 | *** Full Training ROC AUC-Score = 0.6213213205337524 ***
+2024-01-18 14:43:41,318 - INFO - EPOCH #12 | Full Training Loss = 0.863180802792919 | Full Training ROC AUC-Score = 0.6260859370231628
+2024-01-18 14:43:41,318 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #12 --> Updating Best Model Weights
+2024-01-18 14:43:41,318 - INFO - EPOCH #12 | Full Training Loss = 0.863180802792919 | *** Full Training ROC AUC-Score = 0.6260859370231628 ***
+2024-01-18 14:49:53,643 - INFO - EPOCH #13 | Full Training Loss = 0.858772082596409 | Full Training ROC AUC-Score = 0.6324352622032166
+2024-01-18 14:49:53,652 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #13 --> Updating Best Model Weights
+2024-01-18 14:49:53,652 - INFO - EPOCH #13 | Full Training Loss = 0.858772082596409 | *** Full Training ROC AUC-Score = 0.6324352622032166 ***
+2024-01-18 14:56:20,389 - INFO - EPOCH #14 | Full Training Loss = 0.8567520063750598 | Full Training ROC AUC-Score = 0.6351875066757202
+2024-01-18 14:56:20,389 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #14 --> Updating Best Model Weights
+2024-01-18 14:56:20,389 - INFO - EPOCH #14 | Full Training Loss = 0.8567520063750598 | *** Full Training ROC AUC-Score = 0.6351875066757202 ***
+2024-01-18 15:02:48,112 - INFO - EPOCH #15 | Full Training Loss = 0.8537580638515706 | Full Training ROC AUC-Score = 0.6426241397857666
+2024-01-18 15:02:48,112 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #15 --> Updating Best Model Weights
+2024-01-18 15:02:48,112 - INFO - EPOCH #15 | Full Training Loss = 0.8537580638515706 | *** Full Training ROC AUC-Score = 0.6426241397857666 ***
+2024-01-18 15:09:15,894 - INFO - EPOCH #16 | Full Training Loss = 0.851953636626808 | Full Training ROC AUC-Score = 0.6484499573707581
+2024-01-18 15:09:15,894 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #16 --> Updating Best Model Weights
+2024-01-18 15:09:15,895 - INFO - EPOCH #16 | Full Training Loss = 0.851953636626808 | *** Full Training ROC AUC-Score = 0.6484499573707581 ***
+2024-01-18 15:15:36,200 - INFO - EPOCH #17 | Full Training Loss = 0.8515627378103684 | Full Training ROC AUC-Score = 0.6480281352996826
+2024-01-18 15:22:05,579 - INFO - EPOCH #18 | Full Training Loss = 0.8504364764203831 | Full Training ROC AUC-Score = 0.6500946879386902
+2024-01-18 15:22:05,580 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #18 --> Updating Best Model Weights
+2024-01-18 15:22:05,580 - INFO - EPOCH #18 | Full Training Loss = 0.8504364764203831 | *** Full Training ROC AUC-Score = 0.6500946879386902 ***
+2024-01-18 15:28:41,531 - INFO - EPOCH #19 | Full Training Loss = 0.8495489997523171 | Full Training ROC AUC-Score = 0.6522780656814575
+2024-01-18 15:28:41,532 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #19 --> Updating Best Model Weights
+2024-01-18 15:28:41,532 - INFO - EPOCH #19 | Full Training Loss = 0.8495489997523171 | *** Full Training ROC AUC-Score = 0.6522780656814575 ***
+2024-01-18 15:35:41,945 - INFO - EPOCH #20 | Full Training Loss = 0.851023118714897 | Full Training ROC AUC-Score = 0.6497898101806641
+2024-01-18 15:42:12,933 - INFO - EPOCH #21 | Full Training Loss = 0.8490175270304388 | Full Training ROC AUC-Score = 0.6523757576942444
+2024-01-18 15:42:12,933 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #21 --> Updating Best Model Weights
+2024-01-18 15:42:12,933 - INFO - EPOCH #21 | Full Training Loss = 0.8490175270304388 | *** Full Training ROC AUC-Score = 0.6523757576942444 ***
+2024-01-18 15:48:53,136 - INFO - EPOCH #22 | Full Training Loss = 0.8489514242629616 | Full Training ROC AUC-Score = 0.6548761129379272
+2024-01-18 15:48:53,136 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #22 --> Updating Best Model Weights
+2024-01-18 15:48:53,136 - INFO - EPOCH #22 | Full Training Loss = 0.8489514242629616 | *** Full Training ROC AUC-Score = 0.6548761129379272 ***
+2024-01-18 15:55:26,004 - INFO - EPOCH #23 | Full Training Loss = 0.8480714121643378 | Full Training ROC AUC-Score = 0.6549002528190613
+2024-01-18 15:55:26,004 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #23 --> Updating Best Model Weights
+2024-01-18 15:55:26,004 - INFO - EPOCH #23 | Full Training Loss = 0.8480714121643378 | *** Full Training ROC AUC-Score = 0.6549002528190613 ***
+2024-01-18 16:02:21,116 - INFO - EPOCH #24 | Full Training Loss = 0.848562202891525 | Full Training ROC AUC-Score = 0.6546124815940857
+2024-01-18 16:09:06,839 - INFO - EPOCH #25 | Full Training Loss = 0.8479425195528536 | Full Training ROC AUC-Score = 0.6551846265792847
+2024-01-18 16:09:06,840 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #25 --> Updating Best Model Weights
+2024-01-18 16:09:06,841 - INFO - EPOCH #25 | Full Training Loss = 0.8479425195528536 | *** Full Training ROC AUC-Score = 0.6551846265792847 ***
+2024-01-18 16:15:42,905 - INFO - EPOCH #26 | Full Training Loss = 0.8467625452547657 | Full Training ROC AUC-Score = 0.6568020582199097
+2024-01-18 16:15:42,905 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #26 --> Updating Best Model Weights
+2024-01-18 16:15:42,906 - INFO - EPOCH #26 | Full Training Loss = 0.8467625452547657 | *** Full Training ROC AUC-Score = 0.6568020582199097 ***
+2024-01-18 16:22:28,094 - INFO - EPOCH #27 | Full Training Loss = 0.8469604119962576 | Full Training ROC AUC-Score = 0.658450722694397
+2024-01-18 16:22:28,095 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #27 --> Updating Best Model Weights
+2024-01-18 16:22:28,095 - INFO - EPOCH #27 | Full Training Loss = 0.8469604119962576 | *** Full Training ROC AUC-Score = 0.658450722694397 ***
+2024-01-18 16:29:29,762 - INFO - EPOCH #28 | Full Training Loss = 0.8460829598563058 | Full Training ROC AUC-Score = 0.6589512228965759
+2024-01-18 16:29:29,763 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #28 --> Updating Best Model Weights
+2024-01-18 16:29:29,763 - INFO - EPOCH #28 | Full Training Loss = 0.8460829598563058 | *** Full Training ROC AUC-Score = 0.6589512228965759 ***
+2024-01-18 16:37:07,248 - INFO - EPOCH #29 | Full Training Loss = 0.8465013327647228 | Full Training ROC AUC-Score = 0.6589140295982361
+2024-01-18 16:44:39,020 - INFO - EPOCH #30 | Full Training Loss = 0.846439351840895 | Full Training ROC AUC-Score = 0.659359335899353
+2024-01-18 16:44:39,020 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #30 --> Updating Best Model Weights
+2024-01-18 16:44:39,020 - INFO - EPOCH #30 | Full Training Loss = 0.846439351840895 | *** Full Training ROC AUC-Score = 0.659359335899353 ***
+2024-01-18 16:51:26,383 - INFO - EPOCH #31 | Full Training Loss = 0.8456792995637777 | Full Training ROC AUC-Score = 0.6618667244911194
+2024-01-18 16:51:26,383 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #31 --> Updating Best Model Weights
+2024-01-18 16:51:26,384 - INFO - EPOCH #31 | Full Training Loss = 0.8456792995637777 | *** Full Training ROC AUC-Score = 0.6618667244911194 ***
+2024-01-18 16:54:41,396 - INFO - EPOCH #32 | Full Training Loss = 0.8450610205835226 | Full Training ROC AUC-Score = 0.6621548533439636
+2024-01-18 16:54:41,396 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #32 --> Updating Best Model Weights
+2024-01-18 16:54:41,396 - INFO - EPOCH #32 | Full Training Loss = 0.8450610205835226 | *** Full Training ROC AUC-Score = 0.6621548533439636 ***
+2024-01-18 16:58:55,581 - INFO - EPOCH #33 | Full Training Loss = 0.8465651237234777 | Full Training ROC AUC-Score = 0.6596537828445435
+2024-01-18 17:03:29,022 - INFO - EPOCH #34 | Full Training Loss = 0.8452967453976067 | Full Training ROC AUC-Score = 0.6616498827934265
+2024-01-18 17:08:07,186 - INFO - EPOCH #35 | Full Training Loss = 0.8447798739890663 | Full Training ROC AUC-Score = 0.664286732673645
+2024-01-18 17:08:07,186 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #35 --> Updating Best Model Weights
+2024-01-18 17:08:07,186 - INFO - EPOCH #35 | Full Training Loss = 0.8447798739890663 | *** Full Training ROC AUC-Score = 0.664286732673645 ***
+2024-01-18 17:12:48,008 - INFO - EPOCH #36 | Full Training Loss = 0.8437691720164552 | Full Training ROC AUC-Score = 0.6648153066635132
+2024-01-18 17:12:48,008 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #36 --> Updating Best Model Weights
+2024-01-18 17:12:48,008 - INFO - EPOCH #36 | Full Training Loss = 0.8437691720164552 | *** Full Training ROC AUC-Score = 0.6648153066635132 ***
+2024-01-18 17:17:05,598 - INFO - EPOCH #37 | Full Training Loss = 0.8438719109613069 | Full Training ROC AUC-Score = 0.6656917333602905
+2024-01-18 17:17:05,599 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #37 --> Updating Best Model Weights
+2024-01-18 17:17:05,599 - INFO - EPOCH #37 | Full Training Loss = 0.8438719109613069 | *** Full Training ROC AUC-Score = 0.6656917333602905 ***
+2024-01-18 17:21:45,599 - INFO - EPOCH #38 | Full Training Loss = 0.8431064510832027 | Full Training ROC AUC-Score = 0.6672229766845703
+2024-01-18 17:21:45,599 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #38 --> Updating Best Model Weights
+2024-01-18 17:21:45,599 - INFO - EPOCH #38 | Full Training Loss = 0.8431064510832027 | *** Full Training ROC AUC-Score = 0.6672229766845703 ***
+2024-01-18 17:26:21,000 - INFO - EPOCH #39 | Full Training Loss = 0.8425884289400918 | Full Training ROC AUC-Score = 0.667203426361084
+2024-01-18 17:31:02,258 - INFO - EPOCH #40 | Full Training Loss = 0.8418937562679758 | Full Training ROC AUC-Score = 0.6692711114883423
+2024-01-18 17:31:02,258 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #40 --> Updating Best Model Weights
+2024-01-18 17:31:02,258 - INFO - EPOCH #40 | Full Training Loss = 0.8418937562679758 | *** Full Training ROC AUC-Score = 0.6692711114883423 ***
+2024-01-18 17:37:09,547 - INFO - EPOCH #41 | Full Training Loss = 0.8421265276110902 | Full Training ROC AUC-Score = 0.6679049134254456
+2024-01-18 17:41:46,755 - INFO - EPOCH #42 | Full Training Loss = 0.8416239795636158 | Full Training ROC AUC-Score = 0.6710586547851562
+2024-01-18 17:41:46,755 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #42 --> Updating Best Model Weights
+2024-01-18 17:41:46,755 - INFO - EPOCH #42 | Full Training Loss = 0.8416239795636158 | *** Full Training ROC AUC-Score = 0.6710586547851562 ***
+2024-01-18 17:45:56,593 - INFO - EPOCH #43 | Full Training Loss = 0.8418125935963222 | Full Training ROC AUC-Score = 0.6700277328491211
+2024-01-18 17:50:09,504 - INFO - EPOCH #44 | Full Training Loss = 0.8423486741221681 | Full Training ROC AUC-Score = 0.6708800792694092
+2024-01-18 17:54:32,634 - INFO - EPOCH #45 | Full Training Loss = 0.8414846676952985 | Full Training ROC AUC-Score = 0.6722782850265503
+2024-01-18 17:54:32,634 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #45 --> Updating Best Model Weights
+2024-01-18 17:54:32,634 - INFO - EPOCH #45 | Full Training Loss = 0.8414846676952985 | *** Full Training ROC AUC-Score = 0.6722782850265503 ***
+2024-01-18 17:58:58,368 - INFO - EPOCH #46 | Full Training Loss = 0.8397528845436719 | Full Training ROC AUC-Score = 0.6737490892410278
+2024-01-18 17:58:58,368 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #46 --> Updating Best Model Weights
+2024-01-18 17:58:58,368 - INFO - EPOCH #46 | Full Training Loss = 0.8397528845436719 | *** Full Training ROC AUC-Score = 0.6737490892410278 ***
+2024-01-18 18:03:28,516 - INFO - EPOCH #47 | Full Training Loss = 0.8402570035992837 | Full Training ROC AUC-Score = 0.6736364960670471
+2024-01-18 18:08:08,026 - INFO - EPOCH #48 | Full Training Loss = 0.8402197993531519 | Full Training ROC AUC-Score = 0.6737982034683228
+2024-01-18 18:08:08,026 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #48 --> Updating Best Model Weights
+2024-01-18 18:08:08,026 - INFO - EPOCH #48 | Full Training Loss = 0.8402197993531519 | *** Full Training ROC AUC-Score = 0.6737982034683228 ***
+2024-01-18 18:12:59,377 - INFO - EPOCH #49 | Full Training Loss = 0.8390738380198576 | Full Training ROC AUC-Score = 0.6753956079483032
+2024-01-18 18:12:59,377 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #49 --> Updating Best Model Weights
+2024-01-18 18:12:59,377 - INFO - EPOCH #49 | Full Training Loss = 0.8390738380198576 | *** Full Training ROC AUC-Score = 0.6753956079483032 ***
+2024-01-18 18:17:41,105 - INFO - EPOCH #50 | Full Training Loss = 0.8382927665905077 | Full Training ROC AUC-Score = 0.6760302782058716
+2024-01-18 18:17:41,107 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #50 --> Updating Best Model Weights
+2024-01-18 18:17:41,107 - INFO - EPOCH #50 | Full Training Loss = 0.8382927665905077 | *** Full Training ROC AUC-Score = 0.6760302782058716 ***
+2024-01-18 18:17:41,108 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 18:17:41,108 - INFO - Final Evaluation/Testing of the Simple HGT Model On the Hold-Out Test Dataset - For Train-Test Iteration #1 !  \u2193
+2024-01-18 18:17:41,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 18:17:46,247 - INFO - RESULTS OF ==> TRAIN-TEST ITERATION #1
+2024-01-18 18:17:46,247 - INFO -      Binary Coress-Entropy (With Logits) Loss = 0.8336857914924621
+2024-01-18 18:17:46,247 - INFO -      Brier Score = 0.15876584448939268
+2024-01-18 18:17:46,247 - INFO -      ROC AUC-Score = 0.6710909008979797
+2024-01-18 18:17:46,247 - INFO -      Confusion Matrix = tensor([[1836,  300],
+        [ 175,  105]])
+2024-01-18 18:17:46,247 - INFO -      Precision Score = 0.25925925374031067
+2024-01-18 18:17:46,247 - INFO -      Recall (Sensitivity) Score = 0.375
+2024-01-18 18:17:46,247 - INFO -      F1-Score = 0.30656933784484863
+2024-01-18 18:17:46,656 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 18:17:46,656 - INFO - TRAIN-TEST ITERATION #2
+2024-01-18 18:20:59,887 - INFO - EPOCH #1 | Full Training Loss = 0.9172614940575191 | Full Training ROC AUC-Score = 0.502854585647583
+2024-01-18 18:20:59,887 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #1 --> Updating Best Model Weights
+2024-01-18 18:20:59,887 - INFO - EPOCH #1 | Full Training Loss = 0.9172614940575191 | *** Full Training ROC AUC-Score = 0.502854585647583 ***
+2024-01-18 18:24:11,363 - INFO - EPOCH #2 | Full Training Loss = 0.9052829310602072 | Full Training ROC AUC-Score = 0.5159730315208435
+2024-01-18 18:24:11,363 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #2 --> Updating Best Model Weights
+2024-01-18 18:24:11,363 - INFO - EPOCH #2 | Full Training Loss = 0.9052829310602072 | *** Full Training ROC AUC-Score = 0.5159730315208435 ***
+2024-01-18 18:27:24,664 - INFO - EPOCH #3 | Full Training Loss = 0.9051795832964838 | Full Training ROC AUC-Score = 0.5170952081680298
+2024-01-18 18:27:24,664 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #3 --> Updating Best Model Weights
+2024-01-18 18:27:24,664 - INFO - EPOCH #3 | Full Training Loss = 0.9051795832964838 | *** Full Training ROC AUC-Score = 0.5170952081680298 ***
+2024-01-18 18:30:35,603 - INFO - EPOCH #4 | Full Training Loss = 0.904511599516382 | Full Training ROC AUC-Score = 0.5217156410217285
+2024-01-18 18:30:35,603 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #4 --> Updating Best Model Weights
+2024-01-18 18:30:35,603 - INFO - EPOCH #4 | Full Training Loss = 0.904511599516382 | *** Full Training ROC AUC-Score = 0.5217156410217285 ***
+2024-01-18 18:33:36,826 - INFO - EPOCH #5 | Full Training Loss = 0.9038099293806114 | Full Training ROC AUC-Score = 0.5290173292160034
+2024-01-18 18:33:36,826 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #5 --> Updating Best Model Weights
+2024-01-18 18:33:36,826 - INFO - EPOCH #5 | Full Training Loss = 0.9038099293806114 | *** Full Training ROC AUC-Score = 0.5290173292160034 ***
+2024-01-18 18:36:36,181 - INFO - EPOCH #6 | Full Training Loss = 0.9022734207766396 | Full Training ROC AUC-Score = 0.5440426468849182
+2024-01-18 18:36:36,181 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #6 --> Updating Best Model Weights
+2024-01-18 18:36:36,181 - INFO - EPOCH #6 | Full Training Loss = 0.9022734207766396 | *** Full Training ROC AUC-Score = 0.5440426468849182 ***
+2024-01-18 18:39:37,030 - INFO - EPOCH #7 | Full Training Loss = 0.8971996605396271 | Full Training ROC AUC-Score = 0.5780099630355835
+2024-01-18 18:39:37,030 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #7 --> Updating Best Model Weights
+2024-01-18 18:39:37,030 - INFO - EPOCH #7 | Full Training Loss = 0.8971996605396271 | *** Full Training ROC AUC-Score = 0.5780099630355835 ***
+2024-01-18 18:45:04,952 - INFO - EPOCH #8 | Full Training Loss = 0.8855181804725102 | Full Training ROC AUC-Score = 0.6090265512466431
+2024-01-18 18:45:04,952 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #8 --> Updating Best Model Weights
+2024-01-18 18:45:04,952 - INFO - EPOCH #8 | Full Training Loss = 0.8855181804725102 | *** Full Training ROC AUC-Score = 0.6090265512466431 ***
+2024-01-18 18:51:23,319 - INFO - EPOCH #9 | Full Training Loss = 0.8735667655662614 | Full Training ROC AUC-Score = 0.6234900951385498
+2024-01-18 18:51:23,319 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #9 --> Updating Best Model Weights
+2024-01-18 18:51:23,319 - INFO - EPOCH #9 | Full Training Loss = 0.8735667655662614 | *** Full Training ROC AUC-Score = 0.6234900951385498 ***
+2024-01-18 18:58:00,269 - INFO - EPOCH #10 | Full Training Loss = 0.8643875888415745 | Full Training ROC AUC-Score = 0.6279402375221252
+2024-01-18 18:58:00,269 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #10 --> Updating Best Model Weights
+2024-01-18 18:58:00,269 - INFO - EPOCH #10 | Full Training Loss = 0.8643875888415745 | *** Full Training ROC AUC-Score = 0.6279402375221252 ***
+2024-01-18 19:04:38,559 - INFO - EPOCH #11 | Full Training Loss = 0.858840322616149 | Full Training ROC AUC-Score = 0.6342350840568542
+2024-01-18 19:04:38,559 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #11 --> Updating Best Model Weights
+2024-01-18 19:04:38,559 - INFO - EPOCH #11 | Full Training Loss = 0.858840322616149 | *** Full Training ROC AUC-Score = 0.6342350840568542 ***
+2024-01-18 19:11:15,427 - INFO - EPOCH #12 | Full Training Loss = 0.8558092257198022 | Full Training ROC AUC-Score = 0.640681803226471
+2024-01-18 19:11:15,427 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #12 --> Updating Best Model Weights
+2024-01-18 19:11:15,427 - INFO - EPOCH #12 | Full Training Loss = 0.8558092257198022 | *** Full Training ROC AUC-Score = 0.640681803226471 ***
+2024-01-18 19:17:55,658 - INFO - EPOCH #13 | Full Training Loss = 0.8543965932057829 | Full Training ROC AUC-Score = 0.6421633958816528
+2024-01-18 19:17:55,670 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #13 --> Updating Best Model Weights
+2024-01-18 19:17:55,670 - INFO - EPOCH #13 | Full Training Loss = 0.8543965932057829 | *** Full Training ROC AUC-Score = 0.6421633958816528 ***
+2024-01-18 19:24:30,136 - INFO - EPOCH #14 | Full Training Loss = 0.8525200984915908 | Full Training ROC AUC-Score = 0.6486574411392212
+2024-01-18 19:24:30,136 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #14 --> Updating Best Model Weights
+2024-01-18 19:24:30,136 - INFO - EPOCH #14 | Full Training Loss = 0.8525200984915908 | *** Full Training ROC AUC-Score = 0.6486574411392212 ***
+2024-01-18 19:31:07,438 - INFO - EPOCH #15 | Full Training Loss = 0.8514324645606839 | Full Training ROC AUC-Score = 0.6501245498657227
+2024-01-18 19:31:07,438 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #15 --> Updating Best Model Weights
+2024-01-18 19:31:07,438 - INFO - EPOCH #15 | Full Training Loss = 0.8514324645606839 | *** Full Training ROC AUC-Score = 0.6501245498657227 ***
+2024-01-18 19:37:48,739 - INFO - EPOCH #16 | Full Training Loss = 0.8506564120857083 | Full Training ROC AUC-Score = 0.6510028839111328
+2024-01-18 19:37:48,739 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #16 --> Updating Best Model Weights
+2024-01-18 19:37:48,739 - INFO - EPOCH #16 | Full Training Loss = 0.8506564120857083 | *** Full Training ROC AUC-Score = 0.6510028839111328 ***
+2024-01-18 19:44:23,223 - INFO - EPOCH #17 | Full Training Loss = 0.8506051539158335 | Full Training ROC AUC-Score = 0.6517007350921631
+2024-01-18 19:44:23,223 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #17 --> Updating Best Model Weights
+2024-01-18 19:44:23,223 - INFO - EPOCH #17 | Full Training Loss = 0.8506051539158335 | *** Full Training ROC AUC-Score = 0.6517007350921631 ***
+2024-01-18 19:51:01,319 - INFO - EPOCH #18 | Full Training Loss = 0.8503161820830131 | Full Training ROC AUC-Score = 0.6525071859359741
+2024-01-18 19:51:01,319 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #18 --> Updating Best Model Weights
+2024-01-18 19:51:01,319 - INFO - EPOCH #18 | Full Training Loss = 0.8503161820830131 | *** Full Training ROC AUC-Score = 0.6525071859359741 ***
+2024-01-18 19:57:40,931 - INFO - EPOCH #19 | Full Training Loss = 0.8493813495246731 | Full Training ROC AUC-Score = 0.6547301411628723
+2024-01-18 19:57:40,931 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #19 --> Updating Best Model Weights
+2024-01-18 19:57:40,931 - INFO - EPOCH #19 | Full Training Loss = 0.8493813495246731 | *** Full Training ROC AUC-Score = 0.6547301411628723 ***
+2024-01-18 20:04:11,951 - INFO - EPOCH #20 | Full Training Loss = 0.8487822814863555 | Full Training ROC AUC-Score = 0.6544774174690247
+2024-01-18 20:10:38,369 - INFO - EPOCH #21 | Full Training Loss = 0.8485362998076847 | Full Training ROC AUC-Score = 0.65593421459198
+2024-01-18 20:10:38,369 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #21 --> Updating Best Model Weights
+2024-01-18 20:10:38,369 - INFO - EPOCH #21 | Full Training Loss = 0.8485362998076847 | *** Full Training ROC AUC-Score = 0.65593421459198 ***
+2024-01-18 20:17:02,902 - INFO - EPOCH #22 | Full Training Loss = 0.8492807070819699 | Full Training ROC AUC-Score = 0.6550460457801819
+2024-01-18 20:23:36,268 - INFO - EPOCH #23 | Full Training Loss = 0.8482289654867989 | Full Training ROC AUC-Score = 0.656810462474823
+2024-01-18 20:23:36,268 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #23 --> Updating Best Model Weights
+2024-01-18 20:23:36,268 - INFO - EPOCH #23 | Full Training Loss = 0.8482289654867989 | *** Full Training ROC AUC-Score = 0.656810462474823 ***
+2024-01-18 20:30:18,620 - INFO - EPOCH #24 | Full Training Loss = 0.8482591163138954 | Full Training ROC AUC-Score = 0.6575891971588135
+2024-01-18 20:30:18,620 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #24 --> Updating Best Model Weights
+2024-01-18 20:30:18,620 - INFO - EPOCH #24 | Full Training Loss = 0.8482591163138954 | *** Full Training ROC AUC-Score = 0.6575891971588135 ***
+2024-01-18 20:37:28,925 - INFO - EPOCH #25 | Full Training Loss = 0.8479892289151951 | Full Training ROC AUC-Score = 0.6581889986991882
+2024-01-18 20:37:28,925 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #25 --> Updating Best Model Weights
+2024-01-18 20:37:28,925 - INFO - EPOCH #25 | Full Training Loss = 0.8479892289151951 | *** Full Training ROC AUC-Score = 0.6581889986991882 ***
+2024-01-18 20:44:35,444 - INFO - EPOCH #26 | Full Training Loss = 0.8463336411787539 | Full Training ROC AUC-Score = 0.659905195236206
+2024-01-18 20:44:35,444 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #26 --> Updating Best Model Weights
+2024-01-18 20:44:35,445 - INFO - EPOCH #26 | Full Training Loss = 0.8463336411787539 | *** Full Training ROC AUC-Score = 0.659905195236206 ***
+2024-01-18 20:51:03,001 - INFO - EPOCH #27 | Full Training Loss = 0.8468804560145553 | Full Training ROC AUC-Score = 0.6599726676940918
+2024-01-18 20:51:03,001 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #27 --> Updating Best Model Weights
+2024-01-18 20:51:03,001 - INFO - EPOCH #27 | Full Training Loss = 0.8468804560145553 | *** Full Training ROC AUC-Score = 0.6599726676940918 ***
+2024-01-18 20:53:48,656 - INFO - EPOCH #28 | Full Training Loss = 0.846339189884614 | Full Training ROC AUC-Score = 0.6602077484130859
+2024-01-18 20:53:48,671 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #28 --> Updating Best Model Weights
+2024-01-18 20:53:48,671 - INFO - EPOCH #28 | Full Training Loss = 0.846339189884614 | *** Full Training ROC AUC-Score = 0.6602077484130859 ***
+2024-01-18 20:56:45,001 - INFO - EPOCH #29 | Full Training Loss = 0.8469982311433676 | Full Training ROC AUC-Score = 0.6600228548049927
+2024-01-18 21:00:14,041 - INFO - EPOCH #30 | Full Training Loss = 0.8462085425853729 | Full Training ROC AUC-Score = 0.6606266498565674
+2024-01-18 21:00:14,041 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #30 --> Updating Best Model Weights
+2024-01-18 21:00:14,041 - INFO - EPOCH #30 | Full Training Loss = 0.8462085425853729 | *** Full Training ROC AUC-Score = 0.6606266498565674 ***
+2024-01-18 21:03:46,643 - INFO - EPOCH #31 | Full Training Loss = 0.845597331621209 | Full Training ROC AUC-Score = 0.6618951559066772
+2024-01-18 21:03:46,643 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #31 --> Updating Best Model Weights
+2024-01-18 21:03:46,643 - INFO - EPOCH #31 | Full Training Loss = 0.845597331621209 | *** Full Training ROC AUC-Score = 0.6618951559066772 ***
+2024-01-18 21:07:25,058 - INFO - EPOCH #32 | Full Training Loss = 0.8459788366239898 | Full Training ROC AUC-Score = 0.6620660424232483
+2024-01-18 21:07:25,058 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #32 --> Updating Best Model Weights
+2024-01-18 21:07:25,058 - INFO - EPOCH #32 | Full Training Loss = 0.8459788366239898 | *** Full Training ROC AUC-Score = 0.6620660424232483 ***
+2024-01-18 21:11:12,080 - INFO - EPOCH #33 | Full Training Loss = 0.845784993804231 | Full Training ROC AUC-Score = 0.6628525853157043
+2024-01-18 21:11:12,080 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #33 --> Updating Best Model Weights
+2024-01-18 21:11:12,080 - INFO - EPOCH #33 | Full Training Loss = 0.845784993804231 | *** Full Training ROC AUC-Score = 0.6628525853157043 ***
+2024-01-18 21:14:42,745 - INFO - EPOCH #34 | Full Training Loss = 0.8449122230617367 | Full Training ROC AUC-Score = 0.6640645265579224
+2024-01-18 21:14:42,745 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #34 --> Updating Best Model Weights
+2024-01-18 21:14:42,745 - INFO - EPOCH #34 | Full Training Loss = 0.8449122230617367 | *** Full Training ROC AUC-Score = 0.6640645265579224 ***
+2024-01-18 21:18:28,825 - INFO - EPOCH #35 | Full Training Loss = 0.8456643619099442 | Full Training ROC AUC-Score = 0.6626312732696533
+2024-01-18 21:22:25,398 - INFO - EPOCH #36 | Full Training Loss = 0.8446634162445458 | Full Training ROC AUC-Score = 0.6654185056686401
+2024-01-18 21:22:25,398 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #36 --> Updating Best Model Weights
+2024-01-18 21:22:25,398 - INFO - EPOCH #36 | Full Training Loss = 0.8446634162445458 | *** Full Training ROC AUC-Score = 0.6654185056686401 ***
+2024-01-18 21:25:56,240 - INFO - EPOCH #37 | Full Training Loss = 0.8434111396877133 | Full Training ROC AUC-Score = 0.6665753126144409
+2024-01-18 21:25:56,240 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #37 --> Updating Best Model Weights
+2024-01-18 21:25:56,240 - INFO - EPOCH #37 | Full Training Loss = 0.8434111396877133 | *** Full Training ROC AUC-Score = 0.6665753126144409 ***
+2024-01-18 21:29:39,908 - INFO - EPOCH #38 | Full Training Loss = 0.8442284543903507 | Full Training ROC AUC-Score = 0.6664116382598877
+2024-01-18 21:33:40,380 - INFO - EPOCH #39 | Full Training Loss = 0.8428209928833709 | Full Training ROC AUC-Score = 0.6699538230895996
+2024-01-18 21:33:40,381 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #39 --> Updating Best Model Weights
+2024-01-18 21:33:40,381 - INFO - EPOCH #39 | Full Training Loss = 0.8428209928833709 | *** Full Training ROC AUC-Score = 0.6699538230895996 ***
+2024-01-18 21:37:48,252 - INFO - EPOCH #40 | Full Training Loss = 0.8428403473630244 | Full Training ROC AUC-Score = 0.6686509847640991
+2024-01-18 21:41:25,070 - INFO - EPOCH #41 | Full Training Loss = 0.8422757977125596 | Full Training ROC AUC-Score = 0.6703189611434937
+2024-01-18 21:41:25,074 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #41 --> Updating Best Model Weights
+2024-01-18 21:41:25,074 - INFO - EPOCH #41 | Full Training Loss = 0.8422757977125596 | *** Full Training ROC AUC-Score = 0.6703189611434937 ***
+2024-01-18 21:45:04,906 - INFO - EPOCH #42 | Full Training Loss = 0.8414687757589379 | Full Training ROC AUC-Score = 0.6699602603912354
+2024-01-18 21:48:51,321 - INFO - EPOCH #43 | Full Training Loss = 0.8407881399806665 | Full Training ROC AUC-Score = 0.6717560291290283
+2024-01-18 21:48:51,321 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #43 --> Updating Best Model Weights
+2024-01-18 21:48:51,321 - INFO - EPOCH #43 | Full Training Loss = 0.8407881399806665 | *** Full Training ROC AUC-Score = 0.6717560291290283 ***
+2024-01-18 21:53:56,927 - INFO - EPOCH #44 | Full Training Loss = 0.841675511428288 | Full Training ROC AUC-Score = 0.6708430051803589
+2024-01-18 21:58:07,223 - INFO - EPOCH #45 | Full Training Loss = 0.8406168337987394 | Full Training ROC AUC-Score = 0.6728692054748535
+2024-01-18 21:58:07,223 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #45 --> Updating Best Model Weights
+2024-01-18 21:58:07,223 - INFO - EPOCH #45 | Full Training Loss = 0.8406168337987394 | *** Full Training ROC AUC-Score = 0.6728692054748535 ***
+2024-01-18 22:02:35,065 - INFO - EPOCH #46 | Full Training Loss = 0.8389400949283522 | Full Training ROC AUC-Score = 0.675202488899231
+2024-01-18 22:02:35,065 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #46 --> Updating Best Model Weights
+2024-01-18 22:02:35,065 - INFO - EPOCH #46 | Full Training Loss = 0.8389400949283522 | *** Full Training ROC AUC-Score = 0.675202488899231 ***
+2024-01-18 22:07:05,074 - INFO - EPOCH #47 | Full Training Loss = 0.8391330400291754 | Full Training ROC AUC-Score = 0.6751373410224915
+2024-01-18 22:11:46,522 - INFO - EPOCH #48 | Full Training Loss = 0.8390088148263036 | Full Training ROC AUC-Score = 0.6742427349090576
+2024-01-18 22:16:57,287 - INFO - EPOCH #49 | Full Training Loss = 0.837867155975225 | Full Training ROC AUC-Score = 0.6773220896720886
+2024-01-18 22:16:57,287 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #49 --> Updating Best Model Weights
+2024-01-18 22:16:57,287 - INFO - EPOCH #49 | Full Training Loss = 0.837867155975225 | *** Full Training ROC AUC-Score = 0.6773220896720886 ***
+2024-01-18 22:22:11,097 - INFO - EPOCH #50 | Full Training Loss = 0.8378080549288769 | Full Training ROC AUC-Score = 0.6763163208961487
+2024-01-18 22:22:11,116 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 22:22:11,116 - INFO - Final Evaluation/Testing of the Simple HGT Model On the Hold-Out Test Dataset - For Train-Test Iteration #2 !  \u2193
+2024-01-18 22:22:11,116 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 22:22:16,852 - INFO - RESULTS OF ==> TRAIN-TEST ITERATION #2
+2024-01-18 22:22:16,852 - INFO -      Binary Coress-Entropy (With Logits) Loss = 0.8456982254981995
+2024-01-18 22:22:16,852 - INFO -      Brier Score = 0.16380489455361982
+2024-01-18 22:22:16,852 - INFO -      ROC AUC-Score = 0.6559106111526489
+2024-01-18 22:22:16,852 - INFO -      Confusion Matrix = tensor([[1797,  339],
+        [ 172,  108]])
+2024-01-18 22:22:16,852 - INFO -      Precision Score = 0.24161073565483093
+2024-01-18 22:22:16,852 - INFO -      Recall (Sensitivity) Score = 0.3857142925262451
+2024-01-18 22:22:16,852 - INFO -      F1-Score = 0.2971114218235016
+2024-01-18 22:22:17,307 - INFO - ===============================================================================================================================================================================================================
+2024-01-18 22:22:17,307 - INFO - TRAIN-TEST ITERATION #3
+2024-01-18 22:25:51,215 - INFO - EPOCH #1 | Full Training Loss = 0.9050707622450225 | Full Training ROC AUC-Score = 0.509244441986084
+2024-01-18 22:25:51,215 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #1 --> Updating Best Model Weights
+2024-01-18 22:25:51,215 - INFO - EPOCH #1 | Full Training Loss = 0.9050707622450225 | *** Full Training ROC AUC-Score = 0.509244441986084 ***
+2024-01-18 22:29:21,868 - INFO - EPOCH #2 | Full Training Loss = 0.9050941418628303 | Full Training ROC AUC-Score = 0.5158513784408569
+2024-01-18 22:29:21,868 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #2 --> Updating Best Model Weights
+2024-01-18 22:29:21,868 - INFO - EPOCH #2 | Full Training Loss = 0.9050941418628303 | *** Full Training ROC AUC-Score = 0.5158513784408569 ***
+2024-01-18 22:33:15,013 - INFO - EPOCH #3 | Full Training Loss = 0.9046671962251469 | Full Training ROC AUC-Score = 0.5176618695259094
+2024-01-18 22:33:15,013 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #3 --> Updating Best Model Weights
+2024-01-18 22:33:15,013 - INFO - EPOCH #3 | Full Training Loss = 0.9046671962251469 | *** Full Training ROC AUC-Score = 0.5176618695259094 ***
+2024-01-18 22:36:54,320 - INFO - EPOCH #4 | Full Training Loss = 0.9043362840097777 | Full Training ROC AUC-Score = 0.5245152711868286
+2024-01-18 22:36:54,320 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #4 --> Updating Best Model Weights
+2024-01-18 22:36:54,320 - INFO - EPOCH #4 | Full Training Loss = 0.9043362840097777 | *** Full Training ROC AUC-Score = 0.5245152711868286 ***
+2024-01-18 22:40:20,717 - INFO - EPOCH #5 | Full Training Loss = 0.904456556451564 | Full Training ROC AUC-Score = 0.5272786617279053
+2024-01-18 22:40:20,717 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #5 --> Updating Best Model Weights
+2024-01-18 22:40:20,717 - INFO - EPOCH #5 | Full Training Loss = 0.904456556451564 | *** Full Training ROC AUC-Score = 0.5272786617279053 ***
+2024-01-18 22:43:47,993 - INFO - EPOCH #6 | Full Training Loss = 0.9031728956164146 | Full Training ROC AUC-Score = 0.5325281620025635
+2024-01-18 22:43:47,993 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #6 --> Updating Best Model Weights
+2024-01-18 22:43:47,993 - INFO - EPOCH #6 | Full Training Loss = 0.9031728956164146 | *** Full Training ROC AUC-Score = 0.5325281620025635 ***
+2024-01-18 22:47:56,667 - INFO - EPOCH #7 | Full Training Loss = 0.9007727777471348 | Full Training ROC AUC-Score = 0.5591280460357666
+2024-01-18 22:47:56,667 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #7 --> Updating Best Model Weights
+2024-01-18 22:47:56,667 - INFO - EPOCH #7 | Full Training Loss = 0.9007727777471348 | *** Full Training ROC AUC-Score = 0.5591280460357666 ***
+2024-01-18 22:51:31,593 - INFO - EPOCH #8 | Full Training Loss = 0.8908947487266696 | Full Training ROC AUC-Score = 0.5945425033569336
+2024-01-18 22:51:31,593 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #8 --> Updating Best Model Weights
+2024-01-18 22:51:31,593 - INFO - EPOCH #8 | Full Training Loss = 0.8908947487266696 | *** Full Training ROC AUC-Score = 0.5945425033569336 ***
+2024-01-18 22:54:55,914 - INFO - EPOCH #9 | Full Training Loss = 0.8752209215748067 | Full Training ROC AUC-Score = 0.6183704137802124
+2024-01-18 22:54:55,914 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #9 --> Updating Best Model Weights
+2024-01-18 22:54:55,914 - INFO - EPOCH #9 | Full Training Loss = 0.8752209215748067 | *** Full Training ROC AUC-Score = 0.6183704137802124 ***
+2024-01-18 22:58:20,687 - INFO - EPOCH #10 | Full Training Loss = 0.8644825280929098 | Full Training ROC AUC-Score = 0.6249327063560486
+2024-01-18 22:58:20,687 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #10 --> Updating Best Model Weights
+2024-01-18 22:58:20,687 - INFO - EPOCH #10 | Full Training Loss = 0.8644825280929098 | *** Full Training ROC AUC-Score = 0.6249327063560486 ***
+2024-01-18 23:01:44,382 - INFO - EPOCH #11 | Full Training Loss = 0.8580318385240983 | Full Training ROC AUC-Score = 0.6325502395629883
+2024-01-18 23:01:44,382 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #11 --> Updating Best Model Weights
+2024-01-18 23:01:44,382 - INFO - EPOCH #11 | Full Training Loss = 0.8580318385240983 | *** Full Training ROC AUC-Score = 0.6325502395629883 ***
+2024-01-18 23:05:09,287 - INFO - EPOCH #12 | Full Training Loss = 0.8551124352581647 | Full Training ROC AUC-Score = 0.6368809938430786
+2024-01-18 23:05:09,287 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #12 --> Updating Best Model Weights
+2024-01-18 23:05:09,287 - INFO - EPOCH #12 | Full Training Loss = 0.8551124352581647 | *** Full Training ROC AUC-Score = 0.6368809938430786 ***
+2024-01-18 23:09:28,157 - INFO - EPOCH #13 | Full Training Loss = 0.8542531448967603 | Full Training ROC AUC-Score = 0.6415021419525146
+2024-01-18 23:09:28,157 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #13 --> Updating Best Model Weights
+2024-01-18 23:09:28,157 - INFO - EPOCH #13 | Full Training Loss = 0.8542531448967603 | *** Full Training ROC AUC-Score = 0.6415021419525146 ***
+2024-01-18 23:16:04,856 - INFO - EPOCH #14 | Full Training Loss = 0.8518778140447578 | Full Training ROC AUC-Score = 0.6465973854064941
+2024-01-18 23:16:04,856 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #14 --> Updating Best Model Weights
+2024-01-18 23:16:04,856 - INFO - EPOCH #14 | Full Training Loss = 0.8518778140447578 | *** Full Training ROC AUC-Score = 0.6465973854064941 ***
+2024-01-18 23:22:43,385 - INFO - EPOCH #15 | Full Training Loss = 0.8511953785711405 | Full Training ROC AUC-Score = 0.6476840972900391
+2024-01-18 23:22:43,385 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #15 --> Updating Best Model Weights
+2024-01-18 23:22:43,391 - INFO - EPOCH #15 | Full Training Loss = 0.8511953785711405 | *** Full Training ROC AUC-Score = 0.6476840972900391 ***
+2024-01-18 23:29:20,504 - INFO - EPOCH #16 | Full Training Loss = 0.8501387785892097 | Full Training ROC AUC-Score = 0.6490494608879089
+2024-01-18 23:29:20,504 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #16 --> Updating Best Model Weights
+2024-01-18 23:29:20,504 - INFO - EPOCH #16 | Full Training Loss = 0.8501387785892097 | *** Full Training ROC AUC-Score = 0.6490494608879089 ***
+2024-01-18 23:36:01,771 - INFO - EPOCH #17 | Full Training Loss = 0.8506450780800411 | Full Training ROC AUC-Score = 0.6486685872077942
+2024-01-18 23:42:44,016 - INFO - EPOCH #18 | Full Training Loss = 0.8485038724480843 | Full Training ROC AUC-Score = 0.6515477895736694
+2024-01-18 23:42:44,032 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #18 --> Updating Best Model Weights
+2024-01-18 23:42:44,033 - INFO - EPOCH #18 | Full Training Loss = 0.8485038724480843 | *** Full Training ROC AUC-Score = 0.6515477895736694 ***
+2024-01-18 23:49:29,896 - INFO - EPOCH #19 | Full Training Loss = 0.8497585867132459 | Full Training ROC AUC-Score = 0.6517665386199951
+2024-01-18 23:49:29,896 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #19 --> Updating Best Model Weights
+2024-01-18 23:49:29,896 - INFO - EPOCH #19 | Full Training Loss = 0.8497585867132459 | *** Full Training ROC AUC-Score = 0.6517665386199951 ***
+2024-01-18 23:56:13,957 - INFO - EPOCH #20 | Full Training Loss = 0.8491910653454917 | Full Training ROC AUC-Score = 0.6525033712387085
+2024-01-18 23:56:13,957 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #20 --> Updating Best Model Weights
+2024-01-18 23:56:13,957 - INFO - EPOCH #20 | Full Training Loss = 0.8491910653454917 | *** Full Training ROC AUC-Score = 0.6525033712387085 ***
+2024-01-19 00:03:04,272 - INFO - EPOCH #21 | Full Training Loss = 0.848455219852681 | Full Training ROC AUC-Score = 0.653396725654602
+2024-01-19 00:03:04,272 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #21 --> Updating Best Model Weights
+2024-01-19 00:03:04,272 - INFO - EPOCH #21 | Full Training Loss = 0.848455219852681 | *** Full Training ROC AUC-Score = 0.653396725654602 ***
+2024-01-19 00:09:49,914 - INFO - EPOCH #22 | Full Training Loss = 0.847595604098573 | Full Training ROC AUC-Score = 0.6546666622161865
+2024-01-19 00:09:49,914 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #22 --> Updating Best Model Weights
+2024-01-19 00:09:49,914 - INFO - EPOCH #22 | Full Training Loss = 0.847595604098573 | *** Full Training ROC AUC-Score = 0.6546666622161865 ***
+2024-01-19 00:15:48,025 - INFO - EPOCH #23 | Full Training Loss = 0.8473128816302942 | Full Training ROC AUC-Score = 0.655820369720459
+2024-01-19 00:15:48,025 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #23 --> Updating Best Model Weights
+2024-01-19 00:15:48,025 - INFO - EPOCH #23 | Full Training Loss = 0.8473128816302942 | *** Full Training ROC AUC-Score = 0.655820369720459 ***
+2024-01-19 00:18:36,805 - INFO - EPOCH #24 | Full Training Loss = 0.8466870730020561 | Full Training ROC AUC-Score = 0.6555148363113403
+2024-01-19 00:22:16,137 - INFO - EPOCH #25 | Full Training Loss = 0.8472880161538416 | Full Training ROC AUC-Score = 0.6575444936752319
+2024-01-19 00:22:16,137 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #25 --> Updating Best Model Weights
+2024-01-19 00:22:16,137 - INFO - EPOCH #25 | Full Training Loss = 0.8472880161538416 | *** Full Training ROC AUC-Score = 0.6575444936752319 ***
+2024-01-19 00:26:57,193 - INFO - EPOCH #26 | Full Training Loss = 0.8464929978458249 | Full Training ROC AUC-Score = 0.6589995622634888
+2024-01-19 00:26:57,193 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #26 --> Updating Best Model Weights
+2024-01-19 00:26:57,193 - INFO - EPOCH #26 | Full Training Loss = 0.8464929978458249 | *** Full Training ROC AUC-Score = 0.6589995622634888 ***
+2024-01-19 00:31:08,197 - INFO - EPOCH #27 | Full Training Loss = 0.8461731124897393 | Full Training ROC AUC-Score = 0.6591358184814453
+2024-01-19 00:31:08,197 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #27 --> Updating Best Model Weights
+2024-01-19 00:31:08,197 - INFO - EPOCH #27 | Full Training Loss = 0.8461731124897393 | *** Full Training ROC AUC-Score = 0.6591358184814453 ***
+2024-01-19 00:35:06,103 - INFO - EPOCH #28 | Full Training Loss = 0.8459490841748764 | Full Training ROC AUC-Score = 0.6603349447250366
+2024-01-19 00:35:06,103 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #28 --> Updating Best Model Weights
+2024-01-19 00:35:06,103 - INFO - EPOCH #28 | Full Training Loss = 0.8459490841748764 | *** Full Training ROC AUC-Score = 0.6603349447250366 ***
+2024-01-19 00:39:45,085 - INFO - EPOCH #29 | Full Training Loss = 0.8456208389632556 | Full Training ROC AUC-Score = 0.661930501461029
+2024-01-19 00:39:45,085 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #29 --> Updating Best Model Weights
+2024-01-19 00:39:45,085 - INFO - EPOCH #29 | Full Training Loss = 0.8456208389632556 | *** Full Training ROC AUC-Score = 0.661930501461029 ***
+2024-01-19 00:44:22,643 - INFO - EPOCH #30 | Full Training Loss = 0.8444935880145248 | Full Training ROC AUC-Score = 0.6641091704368591
+2024-01-19 00:44:22,643 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #30 --> Updating Best Model Weights
+2024-01-19 00:44:22,643 - INFO - EPOCH #30 | Full Training Loss = 0.8444935880145248 | *** Full Training ROC AUC-Score = 0.6641091704368591 ***
+2024-01-19 00:48:22,423 - INFO - EPOCH #31 | Full Training Loss = 0.8439256475896252 | Full Training ROC AUC-Score = 0.6656690239906311
+2024-01-19 00:48:22,423 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #31 --> Updating Best Model Weights
+2024-01-19 00:48:22,423 - INFO - EPOCH #31 | Full Training Loss = 0.8439256475896252 | *** Full Training ROC AUC-Score = 0.6656690239906311 ***
+2024-01-19 00:52:22,304 - INFO - EPOCH #32 | Full Training Loss = 0.8429947829976374 | Full Training ROC AUC-Score = 0.6670281887054443
+2024-01-19 00:52:22,304 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #32 --> Updating Best Model Weights
+2024-01-19 00:52:22,304 - INFO - EPOCH #32 | Full Training Loss = 0.8429947829976374 | *** Full Training ROC AUC-Score = 0.6670281887054443 ***
+2024-01-19 00:55:54,028 - INFO - EPOCH #33 | Full Training Loss = 0.841445537854214 | Full Training ROC AUC-Score = 0.6693461537361145
+2024-01-19 00:55:54,028 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #33 --> Updating Best Model Weights
+2024-01-19 00:55:54,028 - INFO - EPOCH #33 | Full Training Loss = 0.841445537854214 | *** Full Training ROC AUC-Score = 0.6693461537361145 ***
+2024-01-19 00:59:26,959 - INFO - EPOCH #34 | Full Training Loss = 0.842918718347744 | Full Training ROC AUC-Score = 0.667677104473114
+2024-01-19 01:03:04,949 - INFO - EPOCH #35 | Full Training Loss = 0.8404270003036577 | Full Training ROC AUC-Score = 0.6728141903877258
+2024-01-19 01:03:04,949 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #35 --> Updating Best Model Weights
+2024-01-19 01:03:04,949 - INFO - EPOCH #35 | Full Training Loss = 0.8404270003036577 | *** Full Training ROC AUC-Score = 0.6728141903877258 ***
+2024-01-19 01:06:41,506 - INFO - EPOCH #36 | Full Training Loss = 0.8398407192862763 | Full Training ROC AUC-Score = 0.6739908456802368
+2024-01-19 01:06:41,506 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #36 --> Updating Best Model Weights
+2024-01-19 01:06:41,506 - INFO - EPOCH #36 | Full Training Loss = 0.8398407192862763 | *** Full Training ROC AUC-Score = 0.6739908456802368 ***
+2024-01-19 01:10:19,513 - INFO - EPOCH #37 | Full Training Loss = 0.8384883355121223 | Full Training ROC AUC-Score = 0.6755437850952148
+2024-01-19 01:10:19,513 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #37 --> Updating Best Model Weights
+2024-01-19 01:10:19,513 - INFO - EPOCH #37 | Full Training Loss = 0.8384883355121223 | *** Full Training ROC AUC-Score = 0.6755437850952148 ***
+2024-01-19 01:13:56,981 - INFO - EPOCH #38 | Full Training Loss = 0.8401272369890797 | Full Training ROC AUC-Score = 0.6745998859405518
+2024-01-19 01:17:40,043 - INFO - EPOCH #39 | Full Training Loss = 0.8388323339880729 | Full Training ROC AUC-Score = 0.6741297841072083
+2024-01-19 01:21:25,665 - INFO - EPOCH #40 | Full Training Loss = 0.8381755595304528 | Full Training ROC AUC-Score = 0.6755842566490173
+2024-01-19 01:21:25,665 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #40 --> Updating Best Model Weights
+2024-01-19 01:21:25,665 - INFO - EPOCH #40 | Full Training Loss = 0.8381755595304528 | *** Full Training ROC AUC-Score = 0.6755842566490173 ***
+2024-01-19 01:25:13,991 - INFO - EPOCH #41 | Full Training Loss = 0.8367325955507706 | Full Training ROC AUC-Score = 0.6783350706100464
+2024-01-19 01:25:13,991 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #41 --> Updating Best Model Weights
+2024-01-19 01:25:13,991 - INFO - EPOCH #41 | Full Training Loss = 0.8367325955507706 | *** Full Training ROC AUC-Score = 0.6783350706100464 ***
+2024-01-19 01:29:02,994 - INFO - EPOCH #42 | Full Training Loss = 0.8377023053412535 | Full Training ROC AUC-Score = 0.6762655973434448
+2024-01-19 01:32:58,772 - INFO - EPOCH #43 | Full Training Loss = 0.835009226385428 | Full Training ROC AUC-Score = 0.6807583570480347
+2024-01-19 01:32:58,772 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #43 --> Updating Best Model Weights
+2024-01-19 01:32:58,787 - INFO - EPOCH #43 | Full Training Loss = 0.835009226385428 | *** Full Training ROC AUC-Score = 0.6807583570480347 ***
+2024-01-19 01:37:00,865 - INFO - EPOCH #44 | Full Training Loss = 0.83457043402049 | Full Training ROC AUC-Score = 0.6810059547424316
+2024-01-19 01:37:00,865 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #44 --> Updating Best Model Weights
+2024-01-19 01:37:00,865 - INFO - EPOCH #44 | Full Training Loss = 0.83457043402049 | *** Full Training ROC AUC-Score = 0.6810059547424316 ***
+2024-01-19 01:41:13,398 - INFO - EPOCH #45 | Full Training Loss = 0.8337714842387608 | Full Training ROC AUC-Score = 0.6827394962310791
+2024-01-19 01:41:13,398 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #45 --> Updating Best Model Weights
+2024-01-19 01:41:13,398 - INFO - EPOCH #45 | Full Training Loss = 0.8337714842387608 | *** Full Training ROC AUC-Score = 0.6827394962310791 ***
+2024-01-19 01:45:30,102 - INFO - EPOCH #46 | Full Training Loss = 0.8336526082486523 | Full Training ROC AUC-Score = 0.6818520426750183
+2024-01-19 01:49:47,838 - INFO - EPOCH #47 | Full Training Loss = 0.8323197705405099 | Full Training ROC AUC-Score = 0.6844177842140198
+2024-01-19 01:49:47,838 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #47 --> Updating Best Model Weights
+2024-01-19 01:49:47,838 - INFO - EPOCH #47 | Full Training Loss = 0.8323197705405099 | *** Full Training ROC AUC-Score = 0.6844177842140198 ***
+2024-01-19 01:54:34,631 - INFO - EPOCH #48 | Full Training Loss = 0.8334479265067042 | Full Training ROC AUC-Score = 0.6823451519012451
+2024-01-19 01:59:24,853 - INFO - EPOCH #49 | Full Training Loss = 0.8321635291284445 | Full Training ROC AUC-Score = 0.6857430934906006
+2024-01-19 01:59:24,853 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #49 --> Updating Best Model Weights
+2024-01-19 01:59:24,853 - INFO - EPOCH #49 | Full Training Loss = 0.8321635291284445 | *** Full Training ROC AUC-Score = 0.6857430934906006 ***
+2024-01-19 02:03:55,112 - INFO - EPOCH #50 | Full Training Loss = 0.8311931795003463 | Full Training ROC AUC-Score = 0.6858363151550293
+2024-01-19 02:03:55,112 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #50 --> Updating Best Model Weights
+2024-01-19 02:03:55,112 - INFO - EPOCH #50 | Full Training Loss = 0.8311931795003463 | *** Full Training ROC AUC-Score = 0.6858363151550293 ***
+2024-01-19 02:03:55,130 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 02:03:55,130 - INFO - Final Evaluation/Testing of the Simple HGT Model On the Hold-Out Test Dataset - For Train-Test Iteration #3 !  \u2193
+2024-01-19 02:03:55,130 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 02:04:00,429 - INFO - RESULTS OF ==> TRAIN-TEST ITERATION #3
+2024-01-19 02:04:00,429 - INFO -      Binary Coress-Entropy (With Logits) Loss = 0.8333435893058777
+2024-01-19 02:04:00,429 - INFO -      Brier Score = 0.16030422322232704
+2024-01-19 02:04:00,429 - INFO -      ROC AUC-Score = 0.6671515703201294
+2024-01-19 02:04:00,429 - INFO -      Confusion Matrix = tensor([[1835,  301],
+        [ 177,  103]])
+2024-01-19 02:04:00,429 - INFO -      Precision Score = 0.25495049357414246
+2024-01-19 02:04:00,429 - INFO -      Recall (Sensitivity) Score = 0.3678571283817291
+2024-01-19 02:04:00,429 - INFO -      F1-Score = 0.30116960406303406
+2024-01-19 02:04:00,790 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 02:04:00,790 - INFO - TRAIN-TEST ITERATION #4
+2024-01-19 02:07:29,233 - INFO - EPOCH #1 | Full Training Loss = 0.905699470821692 | Full Training ROC AUC-Score = 0.5047296285629272
+2024-01-19 02:07:29,233 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #1 --> Updating Best Model Weights
+2024-01-19 02:07:29,233 - INFO - EPOCH #1 | Full Training Loss = 0.905699470821692 | *** Full Training ROC AUC-Score = 0.5047296285629272 ***
+2024-01-19 02:10:50,212 - INFO - EPOCH #2 | Full Training Loss = 0.9051816232350408 | Full Training ROC AUC-Score = 0.5111892819404602
+2024-01-19 02:10:50,212 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #2 --> Updating Best Model Weights
+2024-01-19 02:10:50,212 - INFO - EPOCH #2 | Full Training Loss = 0.9051816232350408 | *** Full Training ROC AUC-Score = 0.5111892819404602 ***
+2024-01-19 02:13:59,613 - INFO - EPOCH #3 | Full Training Loss = 0.9048263497498571 | Full Training ROC AUC-Score = 0.516628623008728
+2024-01-19 02:13:59,613 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #3 --> Updating Best Model Weights
+2024-01-19 02:13:59,613 - INFO - EPOCH #3 | Full Training Loss = 0.9048263497498571 | *** Full Training ROC AUC-Score = 0.516628623008728 ***
+2024-01-19 02:17:00,178 - INFO - EPOCH #4 | Full Training Loss = 0.9047332764888296 | Full Training ROC AUC-Score = 0.5218480825424194
+2024-01-19 02:17:00,178 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #4 --> Updating Best Model Weights
+2024-01-19 02:17:00,178 - INFO - EPOCH #4 | Full Training Loss = 0.9047332764888296 | *** Full Training ROC AUC-Score = 0.5218480825424194 ***
+2024-01-19 02:20:17,646 - INFO - EPOCH #5 | Full Training Loss = 0.9044093891065947 | Full Training ROC AUC-Score = 0.5207155346870422
+2024-01-19 02:23:40,298 - INFO - EPOCH #6 | Full Training Loss = 0.9038715690982585 | Full Training ROC AUC-Score = 0.5293487310409546
+2024-01-19 02:23:40,298 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #6 --> Updating Best Model Weights
+2024-01-19 02:23:40,298 - INFO - EPOCH #6 | Full Training Loss = 0.9038715690982585 | *** Full Training ROC AUC-Score = 0.5293487310409546 ***
+2024-01-19 02:27:08,071 - INFO - EPOCH #7 | Full Training Loss = 0.903686884106422 | Full Training ROC AUC-Score = 0.5303032994270325
+2024-01-19 02:27:08,071 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #7 --> Updating Best Model Weights
+2024-01-19 02:27:08,071 - INFO - EPOCH #7 | Full Training Loss = 0.903686884106422 | *** Full Training ROC AUC-Score = 0.5303032994270325 ***
+2024-01-19 02:30:17,670 - INFO - EPOCH #8 | Full Training Loss = 0.9009809116927945 | Full Training ROC AUC-Score = 0.5538400411605835
+2024-01-19 02:30:17,670 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #8 --> Updating Best Model Weights
+2024-01-19 02:30:17,670 - INFO - EPOCH #8 | Full Training Loss = 0.9009809116927945 | *** Full Training ROC AUC-Score = 0.5538400411605835 ***
+2024-01-19 02:33:19,122 - INFO - EPOCH #9 | Full Training Loss = 0.8934041243426654 | Full Training ROC AUC-Score = 0.587483286857605
+2024-01-19 02:33:19,122 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #9 --> Updating Best Model Weights
+2024-01-19 02:33:19,122 - INFO - EPOCH #9 | Full Training Loss = 0.8934041243426654 | *** Full Training ROC AUC-Score = 0.587483286857605 ***
+2024-01-19 02:36:35,282 - INFO - EPOCH #10 | Full Training Loss = 0.8774921425751278 | Full Training ROC AUC-Score = 0.6178005337715149
+2024-01-19 02:36:35,282 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #10 --> Updating Best Model Weights
+2024-01-19 02:36:35,282 - INFO - EPOCH #10 | Full Training Loss = 0.8774921425751278 | *** Full Training ROC AUC-Score = 0.6178005337715149 ***
+2024-01-19 02:39:56,689 - INFO - EPOCH #11 | Full Training Loss = 0.8660410417585956 | Full Training ROC AUC-Score = 0.623967170715332
+2024-01-19 02:39:56,689 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #11 --> Updating Best Model Weights
+2024-01-19 02:39:56,689 - INFO - EPOCH #11 | Full Training Loss = 0.8660410417585956 | *** Full Training ROC AUC-Score = 0.623967170715332 ***
+2024-01-19 02:43:15,867 - INFO - EPOCH #12 | Full Training Loss = 0.8595997301899657 | Full Training ROC AUC-Score = 0.6318260431289673
+2024-01-19 02:43:15,867 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #12 --> Updating Best Model Weights
+2024-01-19 02:43:15,867 - INFO - EPOCH #12 | Full Training Loss = 0.8595997301899657 | *** Full Training ROC AUC-Score = 0.6318260431289673 ***
+2024-01-19 02:46:34,465 - INFO - EPOCH #13 | Full Training Loss = 0.8552955978987168 | Full Training ROC AUC-Score = 0.6387161612510681
+2024-01-19 02:46:34,465 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #13 --> Updating Best Model Weights
+2024-01-19 02:46:34,465 - INFO - EPOCH #13 | Full Training Loss = 0.8552955978987168 | *** Full Training ROC AUC-Score = 0.6387161612510681 ***
+2024-01-19 02:49:39,174 - INFO - EPOCH #14 | Full Training Loss = 0.8533150644934907 | Full Training ROC AUC-Score = 0.6432915925979614
+2024-01-19 02:49:39,174 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #14 --> Updating Best Model Weights
+2024-01-19 02:49:39,174 - INFO - EPOCH #14 | Full Training Loss = 0.8533150644934907 | *** Full Training ROC AUC-Score = 0.6432915925979614 ***
+2024-01-19 02:52:43,262 - INFO - EPOCH #15 | Full Training Loss = 0.8532232581352701 | Full Training ROC AUC-Score = 0.6442497372627258
+2024-01-19 02:52:43,262 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #15 --> Updating Best Model Weights
+2024-01-19 02:52:43,262 - INFO - EPOCH #15 | Full Training Loss = 0.8532232581352701 | *** Full Training ROC AUC-Score = 0.6442497372627258 ***
+2024-01-19 02:56:02,997 - INFO - EPOCH #16 | Full Training Loss = 0.8522118986869345 | Full Training ROC AUC-Score = 0.647007405757904
+2024-01-19 02:56:02,997 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #16 --> Updating Best Model Weights
+2024-01-19 02:56:02,997 - INFO - EPOCH #16 | Full Training Loss = 0.8522118986869345 | *** Full Training ROC AUC-Score = 0.647007405757904 ***
+2024-01-19 02:59:25,884 - INFO - EPOCH #17 | Full Training Loss = 0.8505573716698861 | Full Training ROC AUC-Score = 0.6485270857810974
+2024-01-19 02:59:25,884 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #17 --> Updating Best Model Weights
+2024-01-19 02:59:25,884 - INFO - EPOCH #17 | Full Training Loss = 0.8505573716698861 | *** Full Training ROC AUC-Score = 0.6485270857810974 ***
+2024-01-19 03:02:43,721 - INFO - EPOCH #18 | Full Training Loss = 0.8508147712872953 | Full Training ROC AUC-Score = 0.6487781405448914
+2024-01-19 03:02:43,721 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #18 --> Updating Best Model Weights
+2024-01-19 03:02:43,721 - INFO - EPOCH #18 | Full Training Loss = 0.8508147712872953 | *** Full Training ROC AUC-Score = 0.6487781405448914 ***
+2024-01-19 03:05:52,838 - INFO - EPOCH #19 | Full Training Loss = 0.850433460911926 | Full Training ROC AUC-Score = 0.6496198773384094
+2024-01-19 03:05:52,838 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #19 --> Updating Best Model Weights
+2024-01-19 03:05:52,838 - INFO - EPOCH #19 | Full Training Loss = 0.850433460911926 | *** Full Training ROC AUC-Score = 0.6496198773384094 ***
+2024-01-19 03:09:01,422 - INFO - EPOCH #20 | Full Training Loss = 0.8503250972348817 | Full Training ROC AUC-Score = 0.6510226726531982
+2024-01-19 03:09:01,422 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #20 --> Updating Best Model Weights
+2024-01-19 03:09:01,422 - INFO - EPOCH #20 | Full Training Loss = 0.8503250972348817 | *** Full Training ROC AUC-Score = 0.6510226726531982 ***
+2024-01-19 03:12:25,096 - INFO - EPOCH #21 | Full Training Loss = 0.8489639564436309 | Full Training ROC AUC-Score = 0.6535606980323792
+2024-01-19 03:12:25,096 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #21 --> Updating Best Model Weights
+2024-01-19 03:12:25,096 - INFO - EPOCH #21 | Full Training Loss = 0.8489639564436309 | *** Full Training ROC AUC-Score = 0.6535606980323792 ***
+2024-01-19 03:15:52,232 - INFO - EPOCH #22 | Full Training Loss = 0.8484362418554268 | Full Training ROC AUC-Score = 0.6539915800094604
+2024-01-19 03:15:52,232 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #22 --> Updating Best Model Weights
+2024-01-19 03:15:52,232 - INFO - EPOCH #22 | Full Training Loss = 0.8484362418554268 | *** Full Training ROC AUC-Score = 0.6539915800094604 ***
+2024-01-19 03:19:12,557 - INFO - EPOCH #23 | Full Training Loss = 0.8481460596833911 | Full Training ROC AUC-Score = 0.6564706563949585
+2024-01-19 03:19:12,557 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #23 --> Updating Best Model Weights
+2024-01-19 03:19:12,557 - INFO - EPOCH #23 | Full Training Loss = 0.8481460596833911 | *** Full Training ROC AUC-Score = 0.6564706563949585 ***
+2024-01-19 03:22:23,085 - INFO - EPOCH #24 | Full Training Loss = 0.8480776840326737 | Full Training ROC AUC-Score = 0.6576170921325684
+2024-01-19 03:22:23,085 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #24 --> Updating Best Model Weights
+2024-01-19 03:22:23,085 - INFO - EPOCH #24 | Full Training Loss = 0.8480776840326737 | *** Full Training ROC AUC-Score = 0.6576170921325684 ***
+2024-01-19 03:25:36,429 - INFO - EPOCH #25 | Full Training Loss = 0.8478112172107307 | Full Training ROC AUC-Score = 0.6584013104438782
+2024-01-19 03:25:36,429 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #25 --> Updating Best Model Weights
+2024-01-19 03:25:36,429 - INFO - EPOCH #25 | Full Training Loss = 0.8478112172107307 | *** Full Training ROC AUC-Score = 0.6584013104438782 ***
+2024-01-19 03:28:57,127 - INFO - EPOCH #26 | Full Training Loss = 0.8477808261404232 | Full Training ROC AUC-Score = 0.6595056056976318
+2024-01-19 03:28:57,127 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #26 --> Updating Best Model Weights
+2024-01-19 03:28:57,127 - INFO - EPOCH #26 | Full Training Loss = 0.8477808261404232 | *** Full Training ROC AUC-Score = 0.6595056056976318 ***
+2024-01-19 03:32:31,887 - INFO - EPOCH #27 | Full Training Loss = 0.846756886462776 | Full Training ROC AUC-Score = 0.6599018573760986
+2024-01-19 03:32:31,887 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #27 --> Updating Best Model Weights
+2024-01-19 03:32:31,887 - INFO - EPOCH #27 | Full Training Loss = 0.846756886462776 | *** Full Training ROC AUC-Score = 0.6599018573760986 ***
+2024-01-19 03:36:05,270 - INFO - EPOCH #28 | Full Training Loss = 0.8468876797325757 | Full Training ROC AUC-Score = 0.661905825138092
+2024-01-19 03:36:05,270 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #28 --> Updating Best Model Weights
+2024-01-19 03:36:05,270 - INFO - EPOCH #28 | Full Training Loss = 0.8468876797325757 | *** Full Training ROC AUC-Score = 0.661905825138092 ***
+2024-01-19 03:39:23,397 - INFO - EPOCH #29 | Full Training Loss = 0.845554957584459 | Full Training ROC AUC-Score = 0.6635565757751465
+2024-01-19 03:39:23,397 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #29 --> Updating Best Model Weights
+2024-01-19 03:39:23,413 - INFO - EPOCH #29 | Full Training Loss = 0.845554957584459 | *** Full Training ROC AUC-Score = 0.6635565757751465 ***
+2024-01-19 03:42:39,621 - INFO - EPOCH #30 | Full Training Loss = 0.8454853989640061 | Full Training ROC AUC-Score = 0.6641385555267334
+2024-01-19 03:42:39,621 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #30 --> Updating Best Model Weights
+2024-01-19 03:42:39,621 - INFO - EPOCH #30 | Full Training Loss = 0.8454853989640061 | *** Full Training ROC AUC-Score = 0.6641385555267334 ***
+2024-01-19 03:46:04,158 - INFO - EPOCH #31 | Full Training Loss = 0.8445635431883286 | Full Training ROC AUC-Score = 0.664334774017334
+2024-01-19 03:46:04,158 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #31 --> Updating Best Model Weights
+2024-01-19 03:46:04,158 - INFO - EPOCH #31 | Full Training Loss = 0.8445635431883286 | *** Full Training ROC AUC-Score = 0.664334774017334 ***
+2024-01-19 03:49:42,575 - INFO - EPOCH #32 | Full Training Loss = 0.8438563930745028 | Full Training ROC AUC-Score = 0.666770875453949
+2024-01-19 03:49:42,575 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #32 --> Updating Best Model Weights
+2024-01-19 03:49:42,575 - INFO - EPOCH #32 | Full Training Loss = 0.8438563930745028 | *** Full Training ROC AUC-Score = 0.666770875453949 ***
+2024-01-19 03:53:21,674 - INFO - EPOCH #33 | Full Training Loss = 0.8436779349434133 | Full Training ROC AUC-Score = 0.667915403842926
+2024-01-19 03:53:21,674 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #33 --> Updating Best Model Weights
+2024-01-19 03:53:21,674 - INFO - EPOCH #33 | Full Training Loss = 0.8436779349434133 | *** Full Training ROC AUC-Score = 0.667915403842926 ***
+2024-01-19 03:56:53,093 - INFO - EPOCH #34 | Full Training Loss = 0.8431563930852073 | Full Training ROC AUC-Score = 0.6681262850761414
+2024-01-19 03:56:53,093 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #34 --> Updating Best Model Weights
+2024-01-19 03:56:53,093 - INFO - EPOCH #34 | Full Training Loss = 0.8431563930852073 | *** Full Training ROC AUC-Score = 0.6681262850761414 ***
+2024-01-19 04:00:16,094 - INFO - EPOCH #35 | Full Training Loss = 0.843716563618913 | Full Training ROC AUC-Score = 0.6676042079925537
+2024-01-19 04:03:46,552 - INFO - EPOCH #36 | Full Training Loss = 0.8434332621340849 | Full Training ROC AUC-Score = 0.6673223972320557
+2024-01-19 04:07:33,143 - INFO - EPOCH #37 | Full Training Loss = 0.8431190757118926 | Full Training ROC AUC-Score = 0.6690903902053833
+2024-01-19 04:07:33,143 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #37 --> Updating Best Model Weights
+2024-01-19 04:07:33,143 - INFO - EPOCH #37 | Full Training Loss = 0.8431190757118926 | *** Full Training ROC AUC-Score = 0.6690903902053833 ***
+2024-01-19 04:11:26,380 - INFO - EPOCH #38 | Full Training Loss = 0.8416824213096074 | Full Training ROC AUC-Score = 0.6699339747428894
+2024-01-19 04:11:26,380 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #38 --> Updating Best Model Weights
+2024-01-19 04:11:26,380 - INFO - EPOCH #38 | Full Training Loss = 0.8416824213096074 | *** Full Training ROC AUC-Score = 0.6699339747428894 ***
+2024-01-19 04:15:08,123 - INFO - EPOCH #39 | Full Training Loss = 0.8419552944144424 | Full Training ROC AUC-Score = 0.6710822582244873
+2024-01-19 04:15:08,123 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #39 --> Updating Best Model Weights
+2024-01-19 04:15:08,123 - INFO - EPOCH #39 | Full Training Loss = 0.8419552944144424 | *** Full Training ROC AUC-Score = 0.6710822582244873 ***
+2024-01-19 04:18:48,557 - INFO - EPOCH #40 | Full Training Loss = 0.8419115403477027 | Full Training ROC AUC-Score = 0.6715492010116577
+2024-01-19 04:18:48,557 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #40 --> Updating Best Model Weights
+2024-01-19 04:18:48,557 - INFO - EPOCH #40 | Full Training Loss = 0.8419115403477027 | *** Full Training ROC AUC-Score = 0.6715492010116577 ***
+2024-01-19 04:22:30,563 - INFO - EPOCH #41 | Full Training Loss = 0.841055233867801 | Full Training ROC AUC-Score = 0.671926736831665
+2024-01-19 04:22:30,563 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #41 --> Updating Best Model Weights
+2024-01-19 04:22:30,563 - INFO - EPOCH #41 | Full Training Loss = 0.841055233867801 | *** Full Training ROC AUC-Score = 0.671926736831665 ***
+2024-01-19 04:26:15,530 - INFO - EPOCH #42 | Full Training Loss = 0.8406273278654838 | Full Training ROC AUC-Score = 0.672227144241333
+2024-01-19 04:26:15,530 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #42 --> Updating Best Model Weights
+2024-01-19 04:26:15,530 - INFO - EPOCH #42 | Full Training Loss = 0.8406273278654838 | *** Full Training ROC AUC-Score = 0.672227144241333 ***
+2024-01-19 04:30:03,842 - INFO - EPOCH #43 | Full Training Loss = 0.8410084387477563 | Full Training ROC AUC-Score = 0.671463131904602
+2024-01-19 04:34:01,098 - INFO - EPOCH #44 | Full Training Loss = 0.8402187872906121 | Full Training ROC AUC-Score = 0.6743277907371521
+2024-01-19 04:34:01,098 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #44 --> Updating Best Model Weights
+2024-01-19 04:34:01,098 - INFO - EPOCH #44 | Full Training Loss = 0.8402187872906121 | *** Full Training ROC AUC-Score = 0.6743277907371521 ***
+2024-01-19 04:38:09,679 - INFO - EPOCH #45 | Full Training Loss = 0.8403223345474321 | Full Training ROC AUC-Score = 0.6740440726280212
+2024-01-19 04:42:30,654 - INFO - EPOCH #46 | Full Training Loss = 0.8383160568013484 | Full Training ROC AUC-Score = 0.6759889125823975
+2024-01-19 04:42:30,654 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #46 --> Updating Best Model Weights
+2024-01-19 04:42:30,654 - INFO - EPOCH #46 | Full Training Loss = 0.8383160568013484 | *** Full Training ROC AUC-Score = 0.6759889125823975 ***
+2024-01-19 04:46:56,200 - INFO - EPOCH #47 | Full Training Loss = 0.8387549744576824 | Full Training ROC AUC-Score = 0.6756255626678467
+2024-01-19 04:51:33,620 - INFO - EPOCH #48 | Full Training Loss = 0.83955460361072 | Full Training ROC AUC-Score = 0.6754725575447083
+2024-01-19 04:56:17,336 - INFO - EPOCH #49 | Full Training Loss = 0.8386669797556741 | Full Training ROC AUC-Score = 0.6764697432518005
+2024-01-19 04:56:17,336 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #49 --> Updating Best Model Weights
+2024-01-19 04:56:17,336 - INFO - EPOCH #49 | Full Training Loss = 0.8386669797556741 | *** Full Training ROC AUC-Score = 0.6764697432518005 ***
+2024-01-19 05:00:58,837 - INFO - EPOCH #50 | Full Training Loss = 0.8390638353873272 | Full Training ROC AUC-Score = 0.6756705045700073
+2024-01-19 05:00:58,837 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 05:00:58,837 - INFO - Final Evaluation/Testing of the Simple HGT Model On the Hold-Out Test Dataset - For Train-Test Iteration #4 !  \u2193
+2024-01-19 05:00:58,837 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 05:01:03,177 - INFO - RESULTS OF ==> TRAIN-TEST ITERATION #4
+2024-01-19 05:01:03,177 - INFO -      Binary Coress-Entropy (With Logits) Loss = 0.8453189611434937
+2024-01-19 05:01:03,177 - INFO -      Brier Score = 0.16813440620272968
+2024-01-19 05:01:03,177 - INFO -      ROC AUC-Score = 0.6563870906829834
+2024-01-19 05:01:03,195 - INFO -      Confusion Matrix = tensor([[1794,  342],
+        [ 174,  106]])
+2024-01-19 05:01:03,195 - INFO -      Precision Score = 0.2366071492433548
+2024-01-19 05:01:03,195 - INFO -      Recall (Sensitivity) Score = 0.37857142090797424
+2024-01-19 05:01:03,195 - INFO -      F1-Score = 0.29120880365371704
+2024-01-19 05:01:03,554 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 05:01:03,554 - INFO - TRAIN-TEST ITERATION #5
+2024-01-19 05:04:15,318 - INFO - EPOCH #1 | Full Training Loss = 0.9062642905176902 | Full Training ROC AUC-Score = 0.5133901834487915
+2024-01-19 05:04:15,330 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #1 --> Updating Best Model Weights
+2024-01-19 05:04:15,330 - INFO - EPOCH #1 | Full Training Loss = 0.9062642905176902 | *** Full Training ROC AUC-Score = 0.5133901834487915 ***
+2024-01-19 05:07:24,754 - INFO - EPOCH #2 | Full Training Loss = 0.905069859052191 | Full Training ROC AUC-Score = 0.5130566954612732
+2024-01-19 05:10:33,782 - INFO - EPOCH #3 | Full Training Loss = 0.9055037997206863 | Full Training ROC AUC-Score = 0.5112025141716003
+2024-01-19 05:13:42,488 - INFO - EPOCH #4 | Full Training Loss = 0.904556574870129 | Full Training ROC AUC-Score = 0.5214239358901978
+2024-01-19 05:13:42,488 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #4 --> Updating Best Model Weights
+2024-01-19 05:13:42,488 - INFO - EPOCH #4 | Full Training Loss = 0.904556574870129 | *** Full Training ROC AUC-Score = 0.5214239358901978 ***
+2024-01-19 05:16:51,329 - INFO - EPOCH #5 | Full Training Loss = 0.9041497804680649 | Full Training ROC AUC-Score = 0.5245739817619324
+2024-01-19 05:16:51,329 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #5 --> Updating Best Model Weights
+2024-01-19 05:16:51,329 - INFO - EPOCH #5 | Full Training Loss = 0.9041497804680649 | *** Full Training ROC AUC-Score = 0.5245739817619324 ***
+2024-01-19 05:20:01,191 - INFO - EPOCH #6 | Full Training Loss = 0.9040182165953577 | Full Training ROC AUC-Score = 0.5260335206985474
+2024-01-19 05:20:01,191 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #6 --> Updating Best Model Weights
+2024-01-19 05:20:01,191 - INFO - EPOCH #6 | Full Training Loss = 0.9040182165953577 | *** Full Training ROC AUC-Score = 0.5260335206985474 ***
+2024-01-19 05:23:11,989 - INFO - EPOCH #7 | Full Training Loss = 0.9034950751431134 | Full Training ROC AUC-Score = 0.5326884388923645
+2024-01-19 05:23:11,989 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #7 --> Updating Best Model Weights
+2024-01-19 05:23:11,989 - INFO - EPOCH #7 | Full Training Loss = 0.9034950751431134 | *** Full Training ROC AUC-Score = 0.5326884388923645 ***
+2024-01-19 05:26:23,749 - INFO - EPOCH #8 | Full Training Loss = 0.9023546898851589 | Full Training ROC AUC-Score = 0.5384293794631958
+2024-01-19 05:26:23,749 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #8 --> Updating Best Model Weights
+2024-01-19 05:26:23,749 - INFO - EPOCH #8 | Full Training Loss = 0.9023546898851589 | *** Full Training ROC AUC-Score = 0.5384293794631958 ***
+2024-01-19 05:29:39,442 - INFO - EPOCH #9 | Full Training Loss = 0.901446955544608 | Full Training ROC AUC-Score = 0.5454007387161255
+2024-01-19 05:29:39,442 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #9 --> Updating Best Model Weights
+2024-01-19 05:29:39,442 - INFO - EPOCH #9 | Full Training Loss = 0.901446955544608 | *** Full Training ROC AUC-Score = 0.5454007387161255 ***
+2024-01-19 05:33:30,722 - INFO - EPOCH #10 | Full Training Loss = 0.898006972609734 | Full Training ROC AUC-Score = 0.5663448572158813
+2024-01-19 05:33:30,722 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #10 --> Updating Best Model Weights
+2024-01-19 05:33:30,722 - INFO - EPOCH #10 | Full Training Loss = 0.898006972609734 | *** Full Training ROC AUC-Score = 0.5663448572158813 ***
+2024-01-19 05:36:42,875 - INFO - EPOCH #11 | Full Training Loss = 0.8901721865546947 | Full Training ROC AUC-Score = 0.5963265895843506
+2024-01-19 05:36:42,875 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #11 --> Updating Best Model Weights
+2024-01-19 05:36:42,875 - INFO - EPOCH #11 | Full Training Loss = 0.8901721865546947 | *** Full Training ROC AUC-Score = 0.5963265895843506 ***
+2024-01-19 05:39:49,652 - INFO - EPOCH #12 | Full Training Loss = 0.8739600351878575 | Full Training ROC AUC-Score = 0.6213626861572266
+2024-01-19 05:39:49,652 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #12 --> Updating Best Model Weights
+2024-01-19 05:39:49,652 - INFO - EPOCH #12 | Full Training Loss = 0.8739600351878575 | *** Full Training ROC AUC-Score = 0.6213626861572266 ***
+2024-01-19 05:42:57,482 - INFO - EPOCH #13 | Full Training Loss = 0.8621032505619283 | Full Training ROC AUC-Score = 0.628743052482605
+2024-01-19 05:42:57,482 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #13 --> Updating Best Model Weights
+2024-01-19 05:42:57,482 - INFO - EPOCH #13 | Full Training Loss = 0.8621032505619283 | *** Full Training ROC AUC-Score = 0.628743052482605 ***
+2024-01-19 05:46:19,110 - INFO - EPOCH #14 | Full Training Loss = 0.855309899364199 | Full Training ROC AUC-Score = 0.636383593082428
+2024-01-19 05:46:19,110 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #14 --> Updating Best Model Weights
+2024-01-19 05:46:19,110 - INFO - EPOCH #14 | Full Training Loss = 0.855309899364199 | *** Full Training ROC AUC-Score = 0.636383593082428 ***
+2024-01-19 05:49:44,569 - INFO - EPOCH #15 | Full Training Loss = 0.8535626883409462 | Full Training ROC AUC-Score = 0.641441285610199
+2024-01-19 05:49:44,569 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #15 --> Updating Best Model Weights
+2024-01-19 05:49:44,569 - INFO - EPOCH #15 | Full Training Loss = 0.8535626883409462 | *** Full Training ROC AUC-Score = 0.641441285610199 ***
+2024-01-19 05:53:08,927 - INFO - EPOCH #16 | Full Training Loss = 0.8517969056051604 | Full Training ROC AUC-Score = 0.6457807421684265
+2024-01-19 05:53:08,927 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #16 --> Updating Best Model Weights
+2024-01-19 05:53:08,927 - INFO - EPOCH #16 | Full Training Loss = 0.8517969056051604 | *** Full Training ROC AUC-Score = 0.6457807421684265 ***
+2024-01-19 05:56:18,303 - INFO - EPOCH #17 | Full Training Loss = 0.8508108489367426 | Full Training ROC AUC-Score = 0.6484452486038208
+2024-01-19 05:56:18,303 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #17 --> Updating Best Model Weights
+2024-01-19 05:56:18,303 - INFO - EPOCH #17 | Full Training Loss = 0.8508108489367426 | *** Full Training ROC AUC-Score = 0.6484452486038208 ***
+2024-01-19 05:59:27,894 - INFO - EPOCH #18 | Full Training Loss = 0.8492694983676988 | Full Training ROC AUC-Score = 0.6529186964035034
+2024-01-19 05:59:27,894 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #18 --> Updating Best Model Weights
+2024-01-19 05:59:27,894 - INFO - EPOCH #18 | Full Training Loss = 0.8492694983676988 | *** Full Training ROC AUC-Score = 0.6529186964035034 ***
+2024-01-19 06:02:39,432 - INFO - EPOCH #19 | Full Training Loss = 0.8492366647233769 | Full Training ROC AUC-Score = 0.6526143550872803
+2024-01-19 06:05:49,913 - INFO - EPOCH #20 | Full Training Loss = 0.8495472541877201 | Full Training ROC AUC-Score = 0.6518232822418213
+2024-01-19 06:09:13,714 - INFO - EPOCH #21 | Full Training Loss = 0.8483619927143564 | Full Training ROC AUC-Score = 0.6566967368125916
+2024-01-19 06:09:13,714 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #21 --> Updating Best Model Weights
+2024-01-19 06:09:13,714 - INFO - EPOCH #21 | Full Training Loss = 0.8483619927143564 | *** Full Training ROC AUC-Score = 0.6566967368125916 ***
+2024-01-19 06:12:48,227 - INFO - EPOCH #22 | Full Training Loss = 0.8473403618043783 | Full Training ROC AUC-Score = 0.658200740814209
+2024-01-19 06:12:48,227 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #22 --> Updating Best Model Weights
+2024-01-19 06:12:48,227 - INFO - EPOCH #22 | Full Training Loss = 0.8473403618043783 | *** Full Training ROC AUC-Score = 0.658200740814209 ***
+2024-01-19 06:15:57,333 - INFO - EPOCH #23 | Full Training Loss = 0.8479102685743448 | Full Training ROC AUC-Score = 0.6584334373474121
+2024-01-19 06:15:57,333 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #23 --> Updating Best Model Weights
+2024-01-19 06:15:57,333 - INFO - EPOCH #23 | Full Training Loss = 0.8479102685743448 | *** Full Training ROC AUC-Score = 0.6584334373474121 ***
+2024-01-19 06:19:06,112 - INFO - EPOCH #24 | Full Training Loss = 0.8452371839357882 | Full Training ROC AUC-Score = 0.6622875928878784
+2024-01-19 06:19:06,112 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #24 --> Updating Best Model Weights
+2024-01-19 06:19:06,112 - INFO - EPOCH #24 | Full Training Loss = 0.8452371839357882 | *** Full Training ROC AUC-Score = 0.6622875928878784 ***
+2024-01-19 06:22:31,365 - INFO - EPOCH #25 | Full Training Loss = 0.844764134105371 | Full Training ROC AUC-Score = 0.6623984575271606
+2024-01-19 06:22:31,365 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #25 --> Updating Best Model Weights
+2024-01-19 06:22:31,365 - INFO - EPOCH #25 | Full Training Loss = 0.844764134105371 | *** Full Training ROC AUC-Score = 0.6623984575271606 ***
+2024-01-19 06:26:03,181 - INFO - EPOCH #26 | Full Training Loss = 0.8441112150951308 | Full Training ROC AUC-Score = 0.665329098701477
+2024-01-19 06:26:03,181 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #26 --> Updating Best Model Weights
+2024-01-19 06:26:03,181 - INFO - EPOCH #26 | Full Training Loss = 0.8441112150951308 | *** Full Training ROC AUC-Score = 0.665329098701477 ***
+2024-01-19 06:29:18,280 - INFO - EPOCH #27 | Full Training Loss = 0.8450033926233953 | Full Training ROC AUC-Score = 0.6638784408569336
+2024-01-19 06:32:33,319 - INFO - EPOCH #28 | Full Training Loss = 0.8442420509396767 | Full Training ROC AUC-Score = 0.6664953231811523
+2024-01-19 06:32:33,319 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #28 --> Updating Best Model Weights
+2024-01-19 06:32:33,319 - INFO - EPOCH #28 | Full Training Loss = 0.8442420509396767 | *** Full Training ROC AUC-Score = 0.6664953231811523 ***
+2024-01-19 06:35:48,831 - INFO - EPOCH #29 | Full Training Loss = 0.8436260795106694 | Full Training ROC AUC-Score = 0.6687687635421753
+2024-01-19 06:35:48,831 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #29 --> Updating Best Model Weights
+2024-01-19 06:35:48,831 - INFO - EPOCH #29 | Full Training Loss = 0.8436260795106694 | *** Full Training ROC AUC-Score = 0.6687687635421753 ***
+2024-01-19 06:39:07,760 - INFO - EPOCH #30 | Full Training Loss = 0.8436786252625135 | Full Training ROC AUC-Score = 0.6680561900138855
+2024-01-19 06:42:41,200 - INFO - EPOCH #31 | Full Training Loss = 0.842051585718077 | Full Training ROC AUC-Score = 0.6694953441619873
+2024-01-19 06:42:41,200 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #31 --> Updating Best Model Weights
+2024-01-19 06:42:41,200 - INFO - EPOCH #31 | Full Training Loss = 0.842051585718077 | *** Full Training ROC AUC-Score = 0.6694953441619873 ***
+2024-01-19 06:46:14,744 - INFO - EPOCH #32 | Full Training Loss = 0.8417826611168531 | Full Training ROC AUC-Score = 0.6706332564353943
+2024-01-19 06:46:14,744 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #32 --> Updating Best Model Weights
+2024-01-19 06:46:14,744 - INFO - EPOCH #32 | Full Training Loss = 0.8417826611168531 | *** Full Training ROC AUC-Score = 0.6706332564353943 ***
+2024-01-19 06:49:47,606 - INFO - EPOCH #33 | Full Training Loss = 0.8423388375311481 | Full Training ROC AUC-Score = 0.6693296432495117
+2024-01-19 06:53:16,154 - INFO - EPOCH #34 | Full Training Loss = 0.8427594237181605 | Full Training ROC AUC-Score = 0.6700178384780884
+2024-01-19 06:56:34,665 - INFO - EPOCH #35 | Full Training Loss = 0.8406025432810491 | Full Training ROC AUC-Score = 0.672799825668335
+2024-01-19 06:56:34,665 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #35 --> Updating Best Model Weights
+2024-01-19 06:56:34,665 - INFO - EPOCH #35 | Full Training Loss = 0.8406025432810491 | *** Full Training ROC AUC-Score = 0.672799825668335 ***
+2024-01-19 06:59:52,744 - INFO - EPOCH #36 | Full Training Loss = 0.8402926733299177 | Full Training ROC AUC-Score = 0.6739436388015747
+2024-01-19 06:59:52,745 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #36 --> Updating Best Model Weights
+2024-01-19 06:59:52,745 - INFO - EPOCH #36 | Full Training Loss = 0.8402926733299177 | *** Full Training ROC AUC-Score = 0.6739436388015747 ***
+2024-01-19 07:03:13,368 - INFO - EPOCH #37 | Full Training Loss = 0.8386147332434751 | Full Training ROC AUC-Score = 0.6756944060325623
+2024-01-19 07:03:13,368 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #37 --> Updating Best Model Weights
+2024-01-19 07:03:13,368 - INFO - EPOCH #37 | Full Training Loss = 0.8386147332434751 | *** Full Training ROC AUC-Score = 0.6756944060325623 ***
+2024-01-19 07:06:46,119 - INFO - EPOCH #38 | Full Training Loss = 0.838888134275164 | Full Training ROC AUC-Score = 0.6749392747879028
+2024-01-19 07:10:24,730 - INFO - EPOCH #39 | Full Training Loss = 0.8393014274081405 | Full Training ROC AUC-Score = 0.67560875415802
+2024-01-19 07:14:02,503 - INFO - EPOCH #40 | Full Training Loss = 0.8372161430971963 | Full Training ROC AUC-Score = 0.678408145904541
+2024-01-19 07:14:02,503 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #40 --> Updating Best Model Weights
+2024-01-19 07:14:02,504 - INFO - EPOCH #40 | Full Training Loss = 0.8372161430971963 | *** Full Training ROC AUC-Score = 0.678408145904541 ***
+2024-01-19 07:17:42,560 - INFO - EPOCH #41 | Full Training Loss = 0.8373295756018891 | Full Training ROC AUC-Score = 0.6781708002090454
+2024-01-19 07:21:12,176 - INFO - EPOCH #42 | Full Training Loss = 0.8369423406464713 | Full Training ROC AUC-Score = 0.6802428960800171
+2024-01-19 07:21:12,176 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #42 --> Updating Best Model Weights
+2024-01-19 07:21:12,176 - INFO - EPOCH #42 | Full Training Loss = 0.8369423406464713 | *** Full Training ROC AUC-Score = 0.6802428960800171 ***
+2024-01-19 07:24:45,160 - INFO - EPOCH #43 | Full Training Loss = 0.8351280293902572 | Full Training ROC AUC-Score = 0.6819875240325928
+2024-01-19 07:24:45,160 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #43 --> Updating Best Model Weights
+2024-01-19 07:24:45,160 - INFO - EPOCH #43 | Full Training Loss = 0.8351280293902572 | *** Full Training ROC AUC-Score = 0.6819875240325928 ***
+2024-01-19 07:28:21,703 - INFO - EPOCH #44 | Full Training Loss = 0.8341428430712953 | Full Training ROC AUC-Score = 0.683316707611084
+2024-01-19 07:28:21,703 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #44 --> Updating Best Model Weights
+2024-01-19 07:28:21,703 - INFO - EPOCH #44 | Full Training Loss = 0.8341428430712953 | *** Full Training ROC AUC-Score = 0.683316707611084 ***
+2024-01-19 07:32:31,313 - INFO - EPOCH #45 | Full Training Loss = 0.833434021594573 | Full Training ROC AUC-Score = 0.6854364275932312
+2024-01-19 07:32:31,313 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #45 --> Updating Best Model Weights
+2024-01-19 07:32:31,313 - INFO - EPOCH #45 | Full Training Loss = 0.833434021594573 | *** Full Training ROC AUC-Score = 0.6854364275932312 ***
+2024-01-19 07:36:59,186 - INFO - EPOCH #46 | Full Training Loss = 0.832383970216829 | Full Training ROC AUC-Score = 0.6855294704437256
+2024-01-19 07:36:59,186 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #46 --> Updating Best Model Weights
+2024-01-19 07:36:59,186 - INFO - EPOCH #46 | Full Training Loss = 0.832383970216829 | *** Full Training ROC AUC-Score = 0.6855294704437256 ***
+2024-01-19 07:41:32,392 - INFO - EPOCH #47 | Full Training Loss = 0.8309258751723231 | Full Training ROC AUC-Score = 0.6877962350845337
+2024-01-19 07:41:32,392 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #47 --> Updating Best Model Weights
+2024-01-19 07:41:32,392 - INFO - EPOCH #47 | Full Training Loss = 0.8309258751723231 | *** Full Training ROC AUC-Score = 0.6877962350845337 ***
+2024-01-19 07:45:57,380 - INFO - EPOCH #48 | Full Training Loss = 0.8305289076299084 | Full Training ROC AUC-Score = 0.6889103651046753
+2024-01-19 07:45:57,380 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #48 --> Updating Best Model Weights
+2024-01-19 07:45:57,380 - INFO - EPOCH #48 | Full Training Loss = 0.8305289076299084 | *** Full Training ROC AUC-Score = 0.6889103651046753 ***
+2024-01-19 07:50:28,295 - INFO - EPOCH #49 | Full Training Loss = 0.8306408439363752 | Full Training ROC AUC-Score = 0.6881119012832642
+2024-01-19 07:55:11,149 - INFO - EPOCH #50 | Full Training Loss = 0.8294697038981379 | Full Training ROC AUC-Score = 0.6892929077148438
+2024-01-19 07:55:11,149 - INFO - FOUND NEW BEST MODEL (WEIGHTS) @ EPOCH #50 --> Updating Best Model Weights
+2024-01-19 07:55:11,149 - INFO - EPOCH #50 | Full Training Loss = 0.8294697038981379 | *** Full Training ROC AUC-Score = 0.6892929077148438 ***
+2024-01-19 07:55:11,164 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:11,164 - INFO - Final Evaluation/Testing of the Simple HGT Model On the Hold-Out Test Dataset - For Train-Test Iteration #5 !  \u2193
+2024-01-19 07:55:11,164 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:15,586 - INFO - RESULTS OF ==> TRAIN-TEST ITERATION #5
+2024-01-19 07:55:15,586 - INFO -      Binary Coress-Entropy (With Logits) Loss = 0.8331479787826538
+2024-01-19 07:55:15,586 - INFO -      Brier Score = 0.1597880767158861
+2024-01-19 07:55:15,586 - INFO -      ROC AUC-Score = 0.672603964805603
+2024-01-19 07:55:15,586 - INFO -      Confusion Matrix = tensor([[1818,  318],
+        [ 174,  106]])
+2024-01-19 07:55:15,601 - INFO -      Precision Score = 0.25
+2024-01-19 07:55:15,601 - INFO -      Recall (Sensitivity) Score = 0.37857142090797424
+2024-01-19 07:55:15,601 - INFO -      F1-Score = 0.3011363744735718
+2024-01-19 07:55:16,010 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,010 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,010 - INFO - Dictionary of Histories of Losses & ROC AUC-Scores (Values) Per Train-Test Iteration (Keys)
+2024-01-19 07:55:16,105 - INFO - {0: {'Final_Training_History_of_Losses': [0.9060257326583473, 0.9055178299242136, 0.9042793214321136, 0.9044853108269828, 0.9040697654899286, 0.9037973205653989, 0.9025716434936134, 0.9011251968996865, 0.8948672054981699, 0.8811727737893864, 0.8704651989498917, 0.863180802792919, 0.858772082596409, 0.8567520063750598, 0.8537580638515706, 0.851953636626808, 0.8515627378103684, 0.8504364764203831, 0.8495489997523171, 0.851023118714897, 0.8490175270304388, 0.8489514242629616, 0.8480714121643378, 0.848562202891525, 0.8479425195528536, 0.8467625452547657, 0.8469604119962576, 0.8460829598563058, 0.8465013327647228, 0.846439351840895, 0.8456792995637777, 0.8450610205835226, 0.8465651237234777, 0.8452967453976067, 0.8447798739890663, 0.8437691720164552, 0.8438719109613069, 0.8431064510832027, 0.8425884289400918, 0.8418937562679758, 0.8421265276110902, 0.8416239795636158, 0.8418125935963222, 0.8423486741221681, 0.8414846676952985, 0.8397528845436719, 0.8402570035992837, 0.8402197993531519, 0.8390738380198576, 0.8382927665905077], 'Final_Training_History_of_ROC_AUC_Scores': [tensor(0.5085), tensor(0.5108), tensor(0.5192), tensor(0.5203), tensor(0.5243), tensor(0.5282), tensor(0.5400), tensor(0.5477), tensor(0.5859), tensor(0.6132), tensor(0.6213), tensor(0.6261), tensor(0.6324), tensor(0.6352), tensor(0.6426), tensor(0.6484), tensor(0.6480), tensor(0.6501), tensor(0.6523), tensor(0.6498), tensor(0.6524), tensor(0.6549), tensor(0.6549), tensor(0.6546), tensor(0.6552), tensor(0.6568), tensor(0.6585), tensor(0.6590), tensor(0.6589), tensor(0.6594), tensor(0.6619), tensor(0.6622), tensor(0.6597), tensor(0.6616), tensor(0.6643), tensor(0.6648), tensor(0.6657), tensor(0.6672), tensor(0.6672), tensor(0.6693), tensor(0.6679), tensor(0.6711), tensor(0.6700), tensor(0.6709), tensor(0.6723), tensor(0.6737), tensor(0.6736), tensor(0.6738), tensor(0.6754), tensor(0.6760)]}, 1: {'Final_Training_History_of_Losses': [0.9172614940575191, 0.9052829310602072, 0.9051795832964838, 0.904511599516382, 0.9038099293806114, 0.9022734207766396, 0.8971996605396271, 0.8855181804725102, 0.8735667655662614, 0.8643875888415745, 0.858840322616149, 0.8558092257198022, 0.8543965932057829, 0.8525200984915908, 0.8514324645606839, 0.8506564120857083, 0.8506051539158335, 0.8503161820830131, 0.8493813495246731, 0.8487822814863555, 0.8485362998076847, 0.8492807070819699, 0.8482289654867989, 0.8482591163138954, 0.8479892289151951, 0.8463336411787539, 0.8468804560145553, 0.846339189884614, 0.8469982311433676, 0.8462085425853729, 0.845597331621209, 0.8459788366239898, 0.845784993804231, 0.8449122230617367, 0.8456643619099442, 0.8446634162445458, 0.8434111396877133, 0.8442284543903507, 0.8428209928833709, 0.8428403473630244, 0.8422757977125596, 0.8414687757589379, 0.8407881399806665, 0.841675511428288, 0.8406168337987394, 0.8389400949283522, 0.8391330400291754, 0.8390088148263036, 0.837867155975225, 0.8378080549288769], 'Final_Training_History_of_ROC_AUC_Scores': [tensor(0.5029), tensor(0.5160), tensor(0.5171), tensor(0.5217), tensor(0.5290), tensor(0.5440), tensor(0.5780), tensor(0.6090), tensor(0.6235), tensor(0.6279), tensor(0.6342), tensor(0.6407), tensor(0.6422), tensor(0.6487), tensor(0.6501), tensor(0.6510), tensor(0.6517), tensor(0.6525), tensor(0.6547), tensor(0.6545), tensor(0.6559), tensor(0.6550), tensor(0.6568), tensor(0.6576), tensor(0.6582), tensor(0.6599), tensor(0.6600), tensor(0.6602), tensor(0.6600), tensor(0.6606), tensor(0.6619), tensor(0.6621), tensor(0.6629), tensor(0.6641), tensor(0.6626), tensor(0.6654), tensor(0.6666), tensor(0.6664), tensor(0.6700), tensor(0.6687), tensor(0.6703), tensor(0.6700), tensor(0.6718), tensor(0.6708), tensor(0.6729), tensor(0.6752), tensor(0.6751), tensor(0.6742), tensor(0.6773), tensor(0.6763)]}, 2: {'Final_Training_History_of_Losses': [0.9050707622450225, 0.9050941418628303, 0.9046671962251469, 0.9043362840097777, 0.904456556451564, 0.9031728956164146, 0.9007727777471348, 0.8908947487266696, 0.8752209215748067, 0.8644825280929098, 0.8580318385240983, 0.8551124352581647, 0.8542531448967603, 0.8518778140447578, 0.8511953785711405, 0.8501387785892097, 0.8506450780800411, 0.8485038724480843, 0.8497585867132459, 0.8491910653454917, 0.848455219852681, 0.847595604098573, 0.8473128816302942, 0.8466870730020561, 0.8472880161538416, 0.8464929978458249, 0.8461731124897393, 0.8459490841748764, 0.8456208389632556, 0.8444935880145248, 0.8439256475896252, 0.8429947829976374, 0.841445537854214, 0.842918718347744, 0.8404270003036577, 0.8398407192862763, 0.8384883355121223, 0.8401272369890797, 0.8388323339880729, 0.8381755595304528, 0.8367325955507706, 0.8377023053412535, 0.835009226385428, 0.83457043402049, 0.8337714842387608, 0.8336526082486523, 0.8323197705405099, 0.8334479265067042, 0.8321635291284445, 0.8311931795003463], 'Final_Training_History_of_ROC_AUC_Scores': [tensor(0.5092), tensor(0.5159), tensor(0.5177), tensor(0.5245), tensor(0.5273), tensor(0.5325), tensor(0.5591), tensor(0.5945), tensor(0.6184), tensor(0.6249), tensor(0.6326), tensor(0.6369), tensor(0.6415), tensor(0.6466), tensor(0.6477), tensor(0.6490), tensor(0.6487), tensor(0.6515), tensor(0.6518), tensor(0.6525), tensor(0.6534), tensor(0.6547), tensor(0.6558), tensor(0.6555), tensor(0.6575), tensor(0.6590), tensor(0.6591), tensor(0.6603), tensor(0.6619), tensor(0.6641), tensor(0.6657), tensor(0.6670), tensor(0.6693), tensor(0.6677), tensor(0.6728), tensor(0.6740), tensor(0.6755), tensor(0.6746), tensor(0.6741), tensor(0.6756), tensor(0.6783), tensor(0.6763), tensor(0.6808), tensor(0.6810), tensor(0.6827), tensor(0.6819), tensor(0.6844), tensor(0.6823), tensor(0.6857), tensor(0.6858)]}, 3: {'Final_Training_History_of_Losses': [0.905699470821692, 0.9051816232350408, 0.9048263497498571, 0.9047332764888296, 0.9044093891065947, 0.9038715690982585, 0.903686884106422, 0.9009809116927945, 0.8934041243426654, 0.8774921425751278, 0.8660410417585956, 0.8595997301899657, 0.8552955978987168, 0.8533150644934907, 0.8532232581352701, 0.8522118986869345, 0.8505573716698861, 0.8508147712872953, 0.850433460911926, 0.8503250972348817, 0.8489639564436309, 0.8484362418554268, 0.8481460596833911, 0.8480776840326737, 0.8478112172107307, 0.8477808261404232, 0.846756886462776, 0.8468876797325757, 0.845554957584459, 0.8454853989640061, 0.8445635431883286, 0.8438563930745028, 0.8436779349434133, 0.8431563930852073, 0.843716563618913, 0.8434332621340849, 0.8431190757118926, 0.8416824213096074, 0.8419552944144424, 0.8419115403477027, 0.841055233867801, 0.8406273278654838, 0.8410084387477563, 0.8402187872906121, 0.8403223345474321, 0.8383160568013484, 0.8387549744576824, 0.83955460361072, 0.8386669797556741, 0.8390638353873272], 'Final_Training_History_of_ROC_AUC_Scores': [tensor(0.5047), tensor(0.5112), tensor(0.5166), tensor(0.5218), tensor(0.5207), tensor(0.5293), tensor(0.5303), tensor(0.5538), tensor(0.5875), tensor(0.6178), tensor(0.6240), tensor(0.6318), tensor(0.6387), tensor(0.6433), tensor(0.6442), tensor(0.6470), tensor(0.6485), tensor(0.6488), tensor(0.6496), tensor(0.6510), tensor(0.6536), tensor(0.6540), tensor(0.6565), tensor(0.6576), tensor(0.6584), tensor(0.6595), tensor(0.6599), tensor(0.6619), tensor(0.6636), tensor(0.6641), tensor(0.6643), tensor(0.6668), tensor(0.6679), tensor(0.6681), tensor(0.6676), tensor(0.6673), tensor(0.6691), tensor(0.6699), tensor(0.6711), tensor(0.6715), tensor(0.6719), tensor(0.6722), tensor(0.6715), tensor(0.6743), tensor(0.6740), tensor(0.6760), tensor(0.6756), tensor(0.6755), tensor(0.6765), tensor(0.6757)]}, 4: {'Final_Training_History_of_Losses': [0.9062642905176902, 0.905069859052191, 0.9055037997206863, 0.904556574870129, 0.9041497804680649, 0.9040182165953577, 0.9034950751431134, 0.9023546898851589, 0.901446955544608, 0.898006972609734, 0.8901721865546947, 0.8739600351878575, 0.8621032505619283, 0.855309899364199, 0.8535626883409462, 0.8517969056051604, 0.8508108489367426, 0.8492694983676988, 0.8492366647233769, 0.8495472541877201, 0.8483619927143564, 0.8473403618043783, 0.8479102685743448, 0.8452371839357882, 0.844764134105371, 0.8441112150951308, 0.8450033926233953, 0.8442420509396767, 0.8436260795106694, 0.8436786252625135, 0.842051585718077, 0.8417826611168531, 0.8423388375311481, 0.8427594237181605, 0.8406025432810491, 0.8402926733299177, 0.8386147332434751, 0.838888134275164, 0.8393014274081405, 0.8372161430971963, 0.8373295756018891, 0.8369423406464713, 0.8351280293902572, 0.8341428430712953, 0.833434021594573, 0.832383970216829, 0.8309258751723231, 0.8305289076299084, 0.8306408439363752, 0.8294697038981379], 'Final_Training_History_of_ROC_AUC_Scores': [tensor(0.5134), tensor(0.5131), tensor(0.5112), tensor(0.5214), tensor(0.5246), tensor(0.5260), tensor(0.5327), tensor(0.5384), tensor(0.5454), tensor(0.5663), tensor(0.5963), tensor(0.6214), tensor(0.6287), tensor(0.6364), tensor(0.6414), tensor(0.6458), tensor(0.6484), tensor(0.6529), tensor(0.6526), tensor(0.6518), tensor(0.6567), tensor(0.6582), tensor(0.6584), tensor(0.6623), tensor(0.6624), tensor(0.6653), tensor(0.6639), tensor(0.6665), tensor(0.6688), tensor(0.6681), tensor(0.6695), tensor(0.6706), tensor(0.6693), tensor(0.6700), tensor(0.6728), tensor(0.6739), tensor(0.6757), tensor(0.6749), tensor(0.6756), tensor(0.6784), tensor(0.6782), tensor(0.6802), tensor(0.6820), tensor(0.6833), tensor(0.6854), tensor(0.6855), tensor(0.6878), tensor(0.6889), tensor(0.6881), tensor(0.6893)]}}
+2024-01-19 07:55:16,105 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,105 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,105 - INFO - Dictionary of Test Class Labels' Predicted Probabilities & Class Label Classification/Prediction (Values) Per Train-Test Iteration (Keys)
+2024-01-19 07:55:16,120 - INFO - {0: {'Test True Class Labels': tensor([0, 0, 1,  ..., 0, 0, 0]), "Test Class Labels' Predicted Probabilities": tensor([0.3813, 0.2407, 0.7731,  ..., 0.2599, 0.5159, 0.5294]), 'Test Predicted/Classified Class Labels': tensor([0., 0., 1.,  ..., 0., 1., 1.])}, 1: {'Test True Class Labels': tensor([0, 0, 1,  ..., 0, 0, 0]), "Test Class Labels' Predicted Probabilities": tensor([0.4004, 0.2630, 0.7654,  ..., 0.2322, 0.5249, 0.5247]), 'Test Predicted/Classified Class Labels': tensor([0., 0., 1.,  ..., 0., 1., 1.])}, 2: {'Test True Class Labels': tensor([0, 0, 1,  ..., 0, 0, 0]), "Test Class Labels' Predicted Probabilities": tensor([0.3678, 0.2502, 0.7405,  ..., 0.3128, 0.4786, 0.5256]), 'Test Predicted/Classified Class Labels': tensor([0., 0., 1.,  ..., 0., 0., 1.])}, 3: {'Test True Class Labels': tensor([0, 0, 1,  ..., 0, 0, 0]), "Test Class Labels' Predicted Probabilities": tensor([0.4188, 0.2834, 0.7611,  ..., 0.2268, 0.5015, 0.5253]), 'Test Predicted/Classified Class Labels': tensor([0., 0., 1.,  ..., 0., 1., 1.])}, 4: {'Test True Class Labels': tensor([0, 0, 1,  ..., 0, 0, 0]), "Test Class Labels' Predicted Probabilities": tensor([0.4422, 0.2732, 0.7843,  ..., 0.2745, 0.4306, 0.5465]), 'Test Predicted/Classified Class Labels': tensor([0., 0., 1.,  ..., 0., 0., 1.])}}
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,120 - INFO - Dictionary of Test Metrics' Scores (Values) Per Train-Test Iteration (Keys)
+2024-01-19 07:55:16,120 - INFO - {0: {'Test Binary Coress-Entropy (With Logits) Loss': 0.8336857914924621, 'Test Brier-Score': 0.15876584448939268, 'Test ROC AUC-Score': tensor(0.6711), 'Test Confusion Matrix': tensor([[1836,  300],
+        [ 175,  105]]), 'Test Precision Score': tensor(0.2593), 'Test Recall Score': tensor(0.3750), 'Test F1-Score': tensor(0.3066)}, 1: {'Test Binary Coress-Entropy (With Logits) Loss': 0.8456982254981995, 'Test Brier-Score': 0.16380489455361982, 'Test ROC AUC-Score': tensor(0.6559), 'Test Confusion Matrix': tensor([[1797,  339],
+        [ 172,  108]]), 'Test Precision Score': tensor(0.2416), 'Test Recall Score': tensor(0.3857), 'Test F1-Score': tensor(0.2971)}, 2: {'Test Binary Coress-Entropy (With Logits) Loss': 0.8333435893058777, 'Test Brier-Score': 0.16030422322232704, 'Test ROC AUC-Score': tensor(0.6672), 'Test Confusion Matrix': tensor([[1835,  301],
+        [ 177,  103]]), 'Test Precision Score': tensor(0.2550), 'Test Recall Score': tensor(0.3679), 'Test F1-Score': tensor(0.3012)}, 3: {'Test Binary Coress-Entropy (With Logits) Loss': 0.8453189611434937, 'Test Brier-Score': 0.16813440620272968, 'Test ROC AUC-Score': tensor(0.6564), 'Test Confusion Matrix': tensor([[1794,  342],
+        [ 174,  106]]), 'Test Precision Score': tensor(0.2366), 'Test Recall Score': tensor(0.3786), 'Test F1-Score': tensor(0.2912)}, 4: {'Test Binary Coress-Entropy (With Logits) Loss': 0.8331479787826538, 'Test Brier-Score': 0.1597880767158861, 'Test ROC AUC-Score': tensor(0.6726), 'Test Confusion Matrix': tensor([[1818,  318],
+        [ 174,  106]]), 'Test Precision Score': tensor(0.2500), 'Test Recall Score': tensor(0.3786), 'Test F1-Score': tensor(0.3011)}}
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,120 - INFO - Final (Re-)Training On the Entire Training Dataset, Using the Best HPs + Testing/Evaluation On Hold-Out Test Dataset Is Over !  \u2193
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,120 - INFO - ===============================================================================================================================================================================================================
+2024-01-19 07:55:16,135 - INFO - ===============================================================================================================================================================================================================
+
+2024-01-19 10:40:19,320 - INFO - Mean Test ROC AUC-Score = 0.6646288275718689
+2024-01-19 10:40:19,320 - INFO - Standard Deviation of the 5 Test ROC AUC-Scores of the Train-Test Iterations = 0.00799466949005397
+2024-01-19 10:40:19,320 - INFO - Standard Error of the Mean (SEM) = 0.0035753248874808513
+2024-01-19 10:40:19,320 - INFO - Margin of Error of the Mean Test ROC AUC-Score, For a 95% Confidence Interval = 0.00992669328333808
+2024-01-19 10:40:19,324 - INFO - ***** \u2234 Mean Test ROC AUC-Score To Report = 0.6646288275718689 ± 0.00992669328333808 *****
+2024-01-19 10:44:33,500 - INFO - Mean Test Brier-Score = 0.16215948903679106
+2024-01-19 10:44:33,502 - INFO - Standard Deviation of the 5 Test Brier-Scores of the Train-Test Iterations = 0.0038402286848176095
+2024-01-19 10:44:33,502 - INFO - Standard Error of the Mean (SEM) = 0.001717402477679358
+2024-01-19 10:44:33,502 - INFO - Margin of Error of the Mean Test Brier-Score, For a 95% Confidence Interval = 0.004768273702807425
+2024-01-19 10:44:33,502 - INFO - ***** \u2234 Mean Test Brier-Score To Report = 0.16215948903679106 ± 0.004768273702807425 *****

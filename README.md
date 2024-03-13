@@ -1,6 +1,6 @@
 # **Shot Classification & Goal Probability Estimation Using GNNs**
 
-Repository of my **MSc. Data Science master's thesis** on **"Shot Classification & Goal Probability Estimation Using Graph Neural Networks"**
+Repository of my **MSc. Data Science master's thesis**
 
 **Supervisor: Dr. Gabriel Anzer  (Head of Data Analytics @ RB Leipzig)**
 

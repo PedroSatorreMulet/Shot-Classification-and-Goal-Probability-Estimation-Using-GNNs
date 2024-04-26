@@ -2,7 +2,7 @@
 
 Repository of my **MSc. Data Science master's thesis**
 
-**Supervisor: Dr. Gabriel Anzer  (Head of Data Analytics @ RB Leipzig)**
+**Supervisor: Dr. Gabriel Anzer  (Head of Soccer Data Analytics @ RB Leipzig)**
 
 **Grade:** 1.1 (German Scoring System)  ≡  98%
 
